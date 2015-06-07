@@ -6,6 +6,6 @@ categories: Image Editing
 ---
 Alexei Efros's team, again, has made a great achivement of object manipulation in photographs. This time they created awaesome that technique published in SIGGRAPH 2014.
 
-We must read the paper `3D Object Manipulation in a Single Photograph using Stock 3D Models`, hacking the techiques behind. Check out the [om3d].
+We must read the paper `3D Object Manipulation in a Single Photograph using Stock 3D Models`, hacking the techiques behind. Check it out [om3d].
 
 [om3d]:      http://www.cs.cmu.edu/~om3d/
