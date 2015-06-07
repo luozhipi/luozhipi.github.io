@@ -2,7 +2,7 @@
 layout: post
 title:  "how 2D object in photo manipulated like in 3D world"
 date:   2015-06-07 15:26:14
-categories: Image Editing
+categories: cv
 ---
 Alexei Efros's team, again, has made a great achivement of object manipulation in photographs. This time they created awaesome that technique published in SIGGRAPH 2014.
 
