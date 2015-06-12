@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "BVH viewer based on three.js"
+date:   2015-06-12 14:15:14
+categories: animation
+---
+javascript is powerful, and it seems that this language will dominate the furture. To boost the world, everyone could programming, that is the idea. So now cloud-based IDE, scalble system architecture (e.g. Node.js), etc., all are out of javascript.
+
+As a 3D guy, I just start scrtipting of course based on three.js, the webGL javascript. By Forking a github project, my first three.js project [bvh_viewer] is on the way, it is about animation, specifically viewing bvh files.
+
+
+[bvh_viwer]:      http://luozhipi.github.io/3d/BVH_player.html
