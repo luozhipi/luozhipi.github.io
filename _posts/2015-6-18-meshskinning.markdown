@@ -8,7 +8,7 @@ Machine learning could also be used in animation? Of course the anwser is a big 
 
 Recent greate breakthrough is achieved by `Binh Huy Le` and `Zhigang Deng`. They have extended to rigid bones, common to motion editing and skeleton extraction. Succeeded by their work presented in SIGGRAPH 2014, their `skinning decomposition` method now is largely improved, making it very promising to converting deformations as artist-friendly rigging.
 
-In addition, skinning decomposition has another notable metrits: data compression. A LBS model of course meeds much lower storage than mesh sequences, in particuar for blendshapes model which is still the common solution for facial animation.
+In addition, skinning decomposition has another notable metrit: data compression. A LBS model of course meeds much lower storage than mesh sequences, in particuar for blendshapes model which is still the common solution for facial animation.
 
 But, have to say, extracting a LBS model is bound by the input data which contains noisy, without a doublt. This is because the examplar poses are often do not exist. They are obtained by handcraft, simulation or capturing.
 
