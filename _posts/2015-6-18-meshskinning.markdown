@@ -14,6 +14,6 @@ But, have to say, extracting a LBS model is bound by the input data which contai
 
 Let's say, in facial animation, seconday deformations are very neccesary to provide the realism. However, LBS is not efficient to reproduce such visual effects, in turn, it is of course not possible to learn a LBS model that will reproduce the deformations. So, we need to smooth out secondary deformations until we obtain the deformation details that can be reached by linear blend skinning. This will be very empirical.
 
-`Webber Huang` [[demo]] has made a great demo, showing that using `Delta Mush`, a new smoothing technique that will be included in MAYA 2016, combined with `skinning decomposition with rigid bones`, has largely improved the performance, both in character deofmraiton, and facial animation.
+`Webber Huang` [[demo]] has made a great demo, showing that using `Delta Mush`, a new smoothing technique that will be included in MAYA 2016, combined with `skinning decomposition with rigid bones`, has largely improved the performance, both in character deformation, and facial animation.
 
 [demo]:      http://riggingtd.com/2015/06/deformation-learning-solver/
