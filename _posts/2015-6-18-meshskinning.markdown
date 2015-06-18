@@ -10,7 +10,7 @@ Recent greate breakthrough is achieved by `Binh Huy Le` and `Zhigang Deng`. They
 
 In addition, skinning decomposition has another notable metrit: data compression. A LBS model of course meeds much lower storage than mesh sequences, in particuar for blendshapes model which is still the common solution for facial animation.
 
-But, have to say, extracting a LBS model is bound by the input data which contains noisy, without a doublt. This is because the examplar poses are often do not exist. They are obtained by handcraft, simulation or capturing.
+But, have to say, extracting a LBS model is bound by the input data which contains noisy, without a doublt. This is because the examplar poses often do not exist. They are obtained by handcraft, simulation or capturing.
 
 Let's say, in facial animation, seconday deformations are very neccesary to provide the realism. However, LBS is not efficient to reproduce such visual effects, in turn, it is of course not possible to learn a LBS model that will reproduce the deformations. So, we need to smooth out secondary deformations until we obtain the deformation details that can be reached by linear blend skinning. This will be very empirical.
 
