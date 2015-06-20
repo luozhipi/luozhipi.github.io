@@ -4,7 +4,7 @@ title:  "skinning mesh deformations"
 date:   2015-06-18 11:15:14
 categories: animation
 ---
-Machine learning could also be used in animation? Of course the anwser is a big `YES`. Notabely, used by the research of `skinning mesh deformations`, pioneered by `Doug L. James` and `Christopher D. Twigg`, see their paper entitled `Skinning Mesh Animations` presented in SIGGRAPH 2005. Later, `Ladislav Kavan` has proposed several methods of extracting the LBS model from a mesh sequence. However, they are again not suitable for rigging, as the bones transformation are not rigid.
+Machine learning could also be used in animation? Of course the anwser is a big `YES`. Notabely, used by the research of `skinning mesh deformations`, pioneered by `Doug L. James` and `Christopher D. Twigg`, see their paper entitled `Skinning Mesh Animations` presented in SIGGRAPH 2005. Later, `Ladislav Kavan` has proposed several methods of extracting the LBS model from a mesh sequence. However, they are again not suitable for rigging, as the bone transformations are not rigid.
 
 Recent great breakthrough is achieved by `Binh Huy Le` and `Zhigang Deng`. They have extended to rigid bones, common to motion editing and skeleton extraction. Succeeded by their work presented in SIGGRAPH 2014, their `skinning decomposition` method now is largely improved, making it very promising to convert deformations as artist-friendly rigging.
 
