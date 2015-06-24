@@ -4,7 +4,8 @@ title: resources
 permalink: /res/
 ---
 
-`Computer vision`
+`Computer vision:`
+
 [computer vision talks online]
 
-[computer vision talks online]http://www.computervisiontalks.com/
+[computer vision talks online]: http://www.computervisiontalks.com/
