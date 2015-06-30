@@ -20,8 +20,8 @@ In the context of animation, the critical criteria of deformation are stablity, 
 
 [Physically Based Deformable Models in Computer Graphics]
 
-[Direct Skinning Methods and Deformation Primitives]:  {{ post.url | prepend: site.baseurl }}
+[Direct Skinning Methods and Deformation Primitives]:  /papers/skinning.pdf
 
-[On Linear Variational Surface Deformation Methods]: 
+[On Linear Variational Surface Deformation Methods]: /papers/variational.pdf
 
-[Physically Based Deformable Models in Computer Graphics]:
+[Physically Based Deformable Models in Computer Graphics]: /papers/deformablemodels.pdf
