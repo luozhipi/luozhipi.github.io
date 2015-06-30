@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "nice survey papers on deformation"
-date:   2015-06-18 11:15:14
+date:   2015-06-30 12:13:56
 categories: animation
 ---
 I try to compile a list of the most representative survey papers on deformation, which includes the state-of-the-art techniques, used to produce visually and or physically plausible deformations in computer animation.
