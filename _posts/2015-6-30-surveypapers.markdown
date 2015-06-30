@@ -4,7 +4,7 @@ title:  "nice survey papers on deformation"
 date:   2015-06-18 11:15:14
 categories: animation
 ---
-I try to compile a list of the most representative survey papers on deformation, which include the state-of-the-art techniques, used to produce visually and or physically plausible deformations in computer animation.
+I try to compile a list of the most representative survey papers on deformation, which includes the state-of-the-art techniques, used to produce visually and or physically plausible deformations in computer animation.
 
 In the context of animation, the critical criteria of deformation are stablity, speed, precision, and controllablity. In this post, several nice survey papers are outlined.
 
