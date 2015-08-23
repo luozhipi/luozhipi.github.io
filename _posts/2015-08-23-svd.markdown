@@ -4,5 +4,10 @@ title:  "singular value decomposition"
 date:   2015-08-23 11:10:00
 categories: animation
 ---
+In this post, I will describe some tips on SVD from a programmer point of view.
 
-$$a^2 + b^2 = c^2$$
+SVD is actually one of the most important and frequently invlolved technique in graphics and animation, as it is the way to compute the transformation between correspondences. To name just a few, we were curious as being reading papers regarding motion capture facial animation, as-rigid-as-possible surface modeling, registration in capturing, etc. Hope this post gives a useful guide regarding the implementation behind.
+
+
+Given a set of points, in their initial configuration $$p_{i}$$ and current configuration $$p_{i}^{t}$$, the goal is to find the transformation $$[R, T]$$ such that the least suqares error is minimized
+\\[ \sum \parallel p_{i}^{t}-(R_{t}p_{i}+T_{t})\parallel^{2} \\]
