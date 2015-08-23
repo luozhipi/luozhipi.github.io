@@ -18,3 +18,7 @@ We need a local reference frame for the point cloud, nomally by defining the cen
 $$ \sum \parallel p_{i}^{t}-p_{*}^{t}+p_{*}^{t}-[R^{t}(p_{i}-p_{*}+p_{*})+T^{t}]\parallel^{2} $$
 
 $$=\sum \parallel \overline{p_{i}^{t}} + p_{*}^{t} - R^{t}\overline{p_{i}^{t}} - (R^{t}p_{*}+T^{t})\parallel^{2}$$
+
+$$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} - (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
+
+$$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2} -2\sum \parallel (\overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}}(R^{t}p_{*}+T^{t}-p_{*}^{t}))\parallel^{2} + \sum \parallel (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
