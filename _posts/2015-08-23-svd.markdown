@@ -6,9 +6,15 @@ categories: animation
 ---
 In this post, I will describe some tips on SVD from a programmer point of view.
 
-SVD is actually one of the most important and frequently invlolved technique in graphics and animation, as it is the way to compute the transformation between correspondences. To name just a few, we were curious as being reading papers regarding motion capture facial animation, as-rigid-as-possible surface modeling, registration in capturing, etc. Hope this post gives a useful guide regarding the implementation behind.
+SVD is actually one of the most important and frequently invlolved technique in graphics and animation, as it is the way to compute the transformation between correspondences. To name just a few, we were curious as being reading papers regarding motion capture facial animation, as-rigid-as-possible surface modeling, registration in capturing, etc. Hope this post give a useful guide regarding the implementation behind.
 
 
 Given a set of points, in their initial configuration $$p_{i}$$ and current configuration $$p_{i}^{t}$$, the goal is to find the transformation $$[R, T]$$ such that the least suqares error is minimized:
 
-$$ \sum \parallel p_{i}^{t}-(R_{t}p_{i}+T_{t})\parallel^{2} $$
+$$ \sum \parallel p_{i}^{t}-(R^{t}p_{i}+T^{t})\parallel^{2} $$
+
+We need a local reference frame for the point cloud, nomally by defining the centroid. Let it be denoted by $$p_{*}$$, so $$p_{8}^{t}$$ for the one at time $$t$$. To this end, how to minimize the error? We change the least squares function
+
+$$ \sum \parallel p_{i}^{t}-p_{*}^{t}+p_{8}^{t}-(R^{t}(p_{i}-p_{*}+p_{*})+T^{t})\parallel^{2} $$
+
+$$=\sum \parallel \bar{p_{i}^{t}} + p_{*}^{t} - R^{t}\bar{p_{i}}^{t} - (R^{t}p_{*}^{t}+T^{t})$$
