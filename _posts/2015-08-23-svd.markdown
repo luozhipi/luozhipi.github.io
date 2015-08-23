@@ -28,8 +28,13 @@ $$\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2}$$
 So means, first, to compute $$R$$, and then $$T$$.
  Minimizing the first term is to construct the convariance matrix
  
- $$S=\sum overline{p_{i}}overline{p_{i}^{t}}^\intercal$$
+ $$\mathsf{S}=\sum overline{p_{i}}overline{p_{i}^{t}}^\intercal$$
  
  and then perform SVD on this matrix
  
- $$SVD(S)=\mu\varepsilon\varphi^\intercal$$ and $$R=\varphi\mu^\intercal$$.
+ $$mathsf{SVD(S)}=\mu\varepsilon\varphi^\intercal$$ and $$R^{t}=\varphi\mu^\intercal$$.
+ 
+Takel care of the relection where $$det{R^{t}}<0$$. This is addressed by the sign of the column of $$\mu$$ corresponding
+to the smallest singular value, such that $$det(R^{t})>0$$.
+
+To this end, $$T^{t}=R^{t}p_{*}+T^{t}-p_{*}^{t}$$
