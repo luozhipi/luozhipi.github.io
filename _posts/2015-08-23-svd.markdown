@@ -28,7 +28,7 @@ $$\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2}$$
 So means, first, to compute $$R$$, and then $$T$$.
  Minimizing the first term is to construct the convariance matrix
  
- $$\mathsf{S}=\sum \overline{p_{i}}overline{p_{i}^{t}}^\intercal$$
+ $$\mathsf{S}=\sum \overline{p_{i}}\overline{p_{i}^{t}}^\intercal$$
  
  and then perform SVD on this matrix
  
