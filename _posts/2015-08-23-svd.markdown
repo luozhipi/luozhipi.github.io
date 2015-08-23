@@ -22,3 +22,14 @@ $$=\sum \parallel \overline{p_{i}^{t}} + p_{*}^{t} - R^{t}\overline{p_{i}^{t}} -
 $$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} - (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
 
 $$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2} -2\sum (\overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}})(R^{t}p_{*}+T^{t}-p_{*}^{t}) + \sum \parallel (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
+
+A variety of centroid definition simplifies the minimization as to minimize
+$$\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2}$$ and $$\sum \parallel (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$.
+So means, first, to compute $$R$$, and then $$T$$.
+ Minimizing the first term is to construct the convariance matrix
+ 
+ $$S=\sum overline{p_{i}}overline{p_{i}^{t}}^\intercal$$
+ 
+ and then perform SVD on this matrix
+ 
+ $$SVD(S)=\mu\varepsilon\varphi^\intercal$$ and $$R=\varphi\mu^\intercal$$.
