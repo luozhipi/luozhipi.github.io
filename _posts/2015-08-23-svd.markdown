@@ -21,4 +21,4 @@ $$=\sum \parallel \overline{p_{i}^{t}} + p_{*}^{t} - R^{t}\overline{p_{i}^{t}} -
 
 $$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} - (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
 
-$$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2} -2\sum \parallel (\overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}}(R^{t}p_{*}+T^{t}-p_{*}^{t}))\parallel^{2} + \sum \parallel (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
+$$=\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2} -2\sum (\overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}})(R^{t}p_{*}+T^{t}-p_{*}^{t}) + \sum \parallel (R^{t}p_{*}+T^{t}-p_{*}^{t})\parallel^{2}$$
