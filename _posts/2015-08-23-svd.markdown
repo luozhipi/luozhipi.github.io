@@ -13,8 +13,8 @@ Given a set of points, in their initial configuration $$p_{i}$$ and current conf
 
 $$ \sum \parallel p_{i}^{t}-(R^{t}p_{i}+T^{t})\parallel^{2} $$
 
-We need a local reference frame for the point cloud, nomally by defining the centroid. Let it be denoted by $$p_{*}$$, so $$p_{8}^{t}$$ for the one at time $$t$$. To this end, how to minimize the error? We change the least squares function
+We need a local reference frame for the point cloud, nomally by defining the centroid. Let it be denoted by $$p_{*}$$, so $$p_{*}^{t}$$ for the one at time $$t$$. To this end, how to minimize the error? We change the least squares function
 
-$$ \sum \parallel p_{i}^{t}-p_{*}^{t}+p_{8}^{t}-(R^{t}(p_{i}-p_{*}+p_{*})+T^{t})\parallel^{2} $$
+$$ \sum \parallel p_{i}^{t}-p_{*}^{t}+p_{*}^{t}-[R^{t}(p_{i}-p_{*}+p_{*})+T^{t}]\parallel^{2} $$
 
-$$=\sum \parallel \bar{p_{i}^{t}} + p_{*}^{t} - R^{t}\bar{p_{i}}^{t} - (R^{t}p_{*}^{t}+T^{t})$$
+$$=\sum \parallel \overline{p_{i}^{t}} + p_{*}^{t} - R^{t}\overline{p_{i}^{t}} - (R^{t}p_{*}+T^{t})\parallel^{2}$$
