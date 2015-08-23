@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "singular value decomposition"
+date:   2015-08-23 11:10:00
+categories: animation
+---
+
+$$a^2 + b^2 = c^2$$
