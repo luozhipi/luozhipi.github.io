@@ -28,13 +28,15 @@ $$\sum \parallel \overline{p_{i}^{t}}- R^{t}\overline{p_{i}^{t}} \parallel^{2}$$
 So means, first, to compute $$R$$, and then $$T$$.
  Minimizing the first term is to construct the convariance matrix
  
- $$\mathsf{S}=\sum overline{p_{i}}overline{p_{i}^{t}}^\intercal$$
+ $$\mathsf{S}=\sum \overline{p_{i}}overline{p_{i}^{t}}^\intercal$$
  
  and then perform SVD on this matrix
  
- $$mathsf{SVD(S)}=\mu\varepsilon\varphi^\intercal$$ and $$R^{t}=\varphi\mu^\intercal$$.
+ $$\mathsf{SVD(S)}=\mu\varepsilon\varphi^\intercal$$ and $$R^{t}=\varphi\mu^\intercal$$.
  
-Takel care of the relection where $$det{R^{t}}<0$$. This is addressed by the sign of the column of $$\mu$$ corresponding
+Takel care of the relection where $$det(R^{t})<0$$. This is addressed by the sign of the column of $$\mu$$ corresponding
 to the smallest singular value, such that $$det(R^{t})>0$$.
 
-To this end, $$T^{t}=R^{t}p_{*}+T^{t}-p_{*}^{t}$$
+To this end, $$T^{t}=p_{*}^{t}-R^{t}p_{*}$$
+
+Final, in this post, only described the solution to `Absolute Orientation problem`, but in practice, it is generalized to `Weighted Absolute Orientation`. But the core idear is the same, but different in the definition of centroid, in turn the convariance matrix. 
