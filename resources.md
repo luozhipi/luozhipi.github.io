@@ -16,6 +16,11 @@ permalink: /res/
 
 [vfx]
 
+`Maya scripting`
+
+[pymaya]
+
 [computer vision talks online]: http://www.computervisiontalks.com/
 [piazza: online class]: https://piazza.com/
 [vfx]: https://www.fxguide.com
+[pymaya]: http://zurbrigg.com/
