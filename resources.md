@@ -20,8 +20,11 @@ permalink: /res/
 
 [AutoDesk 123D]
 
+[tools for game developers]
+
 [computer vision talks online]: http://www.computervisiontalks.com/
 [piazza: online class]: https://piazza.com/
 [vfx]: https://www.fxguide.com
 [pymaya]: http://zurbrigg.com/
 [AutoDesk 123D]: http://blog.123dapp.com/
+[tools for game developers]: https://www.codeandweb.com/
