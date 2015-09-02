@@ -1,1 +1,7 @@
 
+---
+layout: post
+title:  "optimization in games"
+date:   2015-09-02 12:50:00
+categories: animation
+---
