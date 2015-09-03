@@ -51,11 +51,10 @@ Here, I would like to say more about the textures which are the major asset. For
 
 It's beging argued that, next generation of games would be VR-based games. For that, I think the key issues would how to reduce vertiginous sensation and the support good wearing.
 
+To conclude, local optimization is not enough since in practice it is not really locally (without mutual effect). Finally, the senior engineer who ideally developed indie games will guide a global optimization (emphasizing the optimization of the part consuming at most). 
+
+how to make a sucess game? I only restrict the discussion to the visuals. There is a research branch on game design, playful design, which brings interdisciplinarity into games such as psychology. If the game supports more and more  visual effetcs that usally appear in films, such as fire, fog, fluid, hair, cloth, fracturing, strong feedback of collision, I belive the game will attract the players a lot, count me in!
+
 [texturepacker]: https://www.codeandweb.com/texturepacker
-
-
-
-
-
 
 
