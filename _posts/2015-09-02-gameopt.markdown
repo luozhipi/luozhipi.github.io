@@ -21,11 +21,40 @@ Now `game Apps` become popular, thus additionally, we should consider:
 
 2: battery consumption
 
-First, let's say something specific on PC games. Then, the key consideration is frame rate. There are many ways to increase the speed. Unfortuanatelly, currently most approaches of that trade off the speed against visuals, leading to downside rendering, texture quality, polygon faces.
+First, let's say something specific to PC games. Then, the key consideration is the frame rate. There are many ways of increasing the speed. Unfortuanatelly, currently most approaches of that trade off the speed against visuals, leading to downside rendering, texture quality, polygon faces.
 
 Those approaches can be boldly classified into two categories: low-level optimization and algorithmic optimization.
 
 `low-level optimization`
+
+This is can be done by exloiting parallel computing, such as CUDA, Intel® Threading Building Blocks, even simply the OpenMP. This needs skillful programmers to re-design the codes, so that the parallelizable parts are in the form of blocks, each of which corresponds to a thread for instance. Note that this way will require the adaption to different platforms. Futhermore, given a platform, programmers should know well the associated instruction set, as using a specific command or function would largely boost the performence and also reduce the number of lines of codes.
+
+A game engine uses shaders, we can optimize the shaders, thereby largely boosting the performace as well.
+
+Based on my experience, low-level coding is difficult. For example, the CUDA programming always consumes my a lot of energy, to debug, and well orginize the data io.
+
+`algorithmic optimization`
+
+As a `pseudo-researcher`, I prefer the optimization via elegant algorithms. This way tries to develop improved algorithms that increase the speed without sacrificing, even with improvements of, the X quality. A sucess algorithm should meet at least one of the following conditions:
+
+1: higher speed, same (+-) quality
+
+2: same (+-) speed, better quality
+
+3: higher speed and better quality
+
+Another aspect is the more efficient data sturcture, for example, for dynamically managing the objects in scene; for scoring system; for retrieving character skeletal motion.
+
+A game engine often has its own `formats` for textures, motion, meshes, configuration files, communication commands. These formats actually also give a significant imact on the performance. For example, for character deformaiton, most engines only support skeletal skinning, but the blendshape and other deformers (cf. MAYA), BVH motion but directly the C3D (cf. Vicon).
+
+Here, I would like to say more about the textures which are the major asset. For different platform, we should choose a suitable format, and futher a compression version. For detailed discussion, I refer readers to [texturepacker]. Actually, how to orgnize the large amount of assets now becomes a issue more critical for a large game engine.
+
+It's beging argued that, next generation of games would be VR-based games. For that, I think the key issues would how to reduce vertiginous sensation and the support good wearing.
+
+[texturepacker]: https://www.codeandweb.com/texturepacker
+
+
+
 
 
 
