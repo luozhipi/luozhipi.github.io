@@ -1,8 +1,32 @@
-
 ---
 layout: post
 title:  "optimization in games"
 date:   2015-09-02 12:50:00
 categories: animation
 ---
+
+We love playing games. A game provides a large amount components pleasing us, including visuals, audio, playable elements, interaction etc. So, as that many struff should be loaded on a commifity computers/devices, how to optimize the game engine such that we won't endure poor user experience on speed for instance becomes a critical problem in practice. In this post, I will describe some conslusions about the optimization in games based on my experience of using `unreal engine` sdk.
+
+Before releasing a game, there should be a number of rounds of testing (by an automatic pipeline and enerineers), user-study (normally conducted by game players). One of the most important thing is to identify the bottleneck, commonly via `Profiling Games Performance`. The following factors should be considered for a `technically sucesseful` game:
+
+1: speed (framerate)
+
+2: feedback: how long the game respond to user's input, as key or mouse events, even gestures
+
+3: memory footprint
+
+Now `game Apps` become popular, thus additionally, we should consider:
+
+1: traffic consumption
+
+2: battery consumption
+
+First, let's say something specific on PC games. Then, the key consideration is frame rate. There are many ways to increase the speed. Unfortuanatelly, currently most approaches of that trade off the speed against visuals, leading to downside rendering, texture quality, polygon faces.
+
+Those approaches can be boldly classified into two categories: low-level optimization and algorithmic optimization.
+
+`low-level optimization`
+
+
+
 
