@@ -3,6 +3,8 @@ layout: page
 title: resources
 permalink: /res/
 ---
+`my old wordpress blod`
+[blog]
 
 `Computer vision:`
 
@@ -32,3 +34,4 @@ permalink: /res/
 [AutoDesk 123D]: http://blog.123dapp.com/
 [tools for game developers]: https://www.codeandweb.com/
 [OpenVDB]: http://www.openvdb.org/
+[blog]: https://luozhipi.wordpress.com/
