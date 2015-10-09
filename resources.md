@@ -27,6 +27,8 @@ permalink: /res/
 `sparse volumetric data for VFX`
 [OpenVDB]
 
+[Computer Vision for Visual Effects]
+
 [computer vision talks online]: http://www.computervisiontalks.com/
 [piazza: online class]: https://piazza.com/
 [vfx]: https://www.fxguide.com
@@ -35,3 +37,4 @@ permalink: /res/
 [tools for game developers]: https://www.codeandweb.com/
 [OpenVDB]: http://www.openvdb.org/
 [blog]: https://luozhipi.wordpress.com/
+[Computer Vision for Visual Effects]: http://cvfxbook.com/
