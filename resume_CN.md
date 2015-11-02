@@ -13,6 +13,12 @@ qq: 277542747 • Wechat: lzp138252
 
 [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [https://github.com/luozhipi](https://github.com/luozhipi)
 
+C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab
+
+计算机视觉: 目标识别与跟踪 • 图像检索
+
+计算机图形：三维角色动画 • 几何建模
+
 ## 教育背景 ##
 
 ----------
