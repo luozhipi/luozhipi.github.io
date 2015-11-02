@@ -15,23 +15,23 @@ qq: 277542747 • Wechat: lzp138252
 
 ----------
 
-`乌特勒支大学` (世界排名前100)         										荷兰乌特勒支
+`乌特勒支大学 (Utrecht University)` (世界排名前100)         										荷兰乌特勒支
 
-计算机图形博士,  						2012.02–2016.01
+计算机图形 博士,  						2012.02–2016.01
 
 博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models
 
 
 `华南理工大学`           										广州
 
-计算机图形与模式识别硕士,  						2007.09–2010.07
+计算机图形与模式识别 硕士,  						2007.09–2010.07
 
 硕士毕业论文: 基于大规模社交媒体挖掘的景点识别
 
 
 `南昌大学`           										南昌
 
-嵌入式软件开发学士,  						2003.09–2007.07
+嵌入式软件开发 学士,  						2003.09–2007.07
 
 
 ## 发表论文 ##
@@ -45,7 +45,7 @@ Z. Luo, R.C. Veltkamp, A. Egges.: `As-Rigid-As-Possible Character Deformation Us
 
 Z. Luo, R.C. Veltkamp, A. Egges.: `Flexible Point Handles Metaphor for Character Deformation`. ACM Symposium on Virtual Reality Software and Technology (VRST) 2015, poster.
 
-Z. Luo, R.C. Veltkamp, A. Egges.: `Volumetric Surface Deformation with Auxiliary Voxel Grids`. The 32nd Annual Conference on Computer Graphics International (CGI) 2015, short paper.
+Z. Luo, R.C. Veltkamp, A. Egges.: `Volumetric Surface Deformation with Auxiliary Voxel Grids`. The 32nd Annual Conference on Computer Graphics International (CGI) 2015, short paper. [VoxelARAP code]
 
 Z. Luo, R.C. Veltkamp, A. Egges.: `Space Deformation for Character Deformation using Multi-Domain Smooth Embedding`. The 28th Annual Conference on Computer Animation and Social Agents (CASA 2015), short paper.
 
@@ -57,9 +57,9 @@ Z. Luo, H. Li, J. Tang, R. Hong, TS. Chua.: `Estimating poses of world's photos 
 
 Z. Luo, X. Zhang.: `A Semi-Supervised Learning Based Relevance Feedback Algorithm in Content-Based Image Retrieval`. Pattern Recognition, 2008. CCPR '08. Chinese Conference on , vol., no., pp.1,4, 22-24 Oct. 2008.
 
-J. Lu, VA. Nguyen, Z. Niu, B. Singh, Z. Luo, MN. Do.: `CuteChat: a lightweight tele-immersive video chat system`. ACM Multimedia 2011: 1309-1312.
+J. Lu, VA. Nguyen, Z. Niu, B. Singh, Z. Luo, MN. Do.: `CuteChat: a lightweight tele-immersive video chat system`. ACM Multimedia 2011: 1309-1312. [CuteChat]
 
-TS. Chua, J. Tang, R. Hong, H. Li, Z. Luo, Y. Zheng.: `NUS-WIDE: a real-world web image database from National University of Singapore`. Proceedings of the ACM International Conference on Image and Video Retrieval 2009, 48.
+TS. Chua, J. Tang, R. Hong, H. Li, Z. Luo, Y. Zheng.: `NUS-WIDE: a real-world web image database from National University of Singapore`. Proceedings of the ACM International Conference on Image and Video Retrieval 2009, 48. [NUS-WIDE]
 
 R. Hong, J. Tang, ZJ. Zha, Z. Luo, TS. Chua.: `Mediapedia: Mining web knowledge to construct multimedia encyclopedia`. Advances in Multimedia Modeling 2010, 556-566.
 
@@ -70,7 +70,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 ## 学术报告 ##
 
 ----------
-`As-Rigid-As-Possible Character Deformation Using Point Handles`, 11th International Symposium on Visual Computing 2015 (ISVC'15), Las Vegas, Nevada, USA, December 14, 2015. to do
+`As-Rigid-As-Possible Character Deformation Using Point Handles`, 11th International Symposium on Visual Computing 2015 (ISVC'15), Las Vegas, Nevada, USA, December 14, 2015.
 
 `Flexible Point Handles Metaphor for Character Deformation`, ACM Symposium on Virtual Reality Software and Technology (VRST) 2015, Beijing, China, November 13th, 2015.
 
@@ -138,3 +138,7 @@ Unix/Linux 环境下路由管理转换接口设计与实现           **国家�
 2011 北京市大学生计算机应用大赛移动终端应用创意与程序设计二等奖团队组长
 
 2011 第六届全国信息技术应用水平大赛比赛安卓应用开发团体赛三等奖团队组长
+
+[VoxelARAP code]: https://github.com/luozhipi/VoxelARAP
+[CuteChat]: https://sites.google.com/site/adscitem/recent-contributions-2
+[NUS-WIDE]: http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm
