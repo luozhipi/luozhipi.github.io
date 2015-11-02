@@ -3,11 +3,13 @@ layout: page
 title: 中文简历
 permalink: /cv_cn/
 ---
-# 万虎| 个人简历 #
+# 罗志平| 个人简历 #
 
-首都师范大学 信息工程学院 海淀区, 北京市 100048
+男 1986 未婚 深圳市
 
-(+86) 152 10594789 • [wanhu@cnu.edu.cn](mailto:wanhu@cnu.edu.cn) • [mengyingchina.github.com](http://mengyingchina.github.com)
+qq: 277542747 • Wechat: lzp138252 
+
+[luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [https://github.com/luozhipi](https://github.com/luozhipi)
 
 ## 教育背景 ##
 
