@@ -14,21 +14,75 @@ qq: 277542747 • Wechat: lzp138252
 ## 教育背景 ##
 
 ----------
+
 `乌特勒支大学` (世界排名前100)         										荷兰乌特勒支
 
-计算机图形,  						2012.02–2016.01
+计算机图形博士,  						2012.02–2016.01
 
 博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models
 
+
 `华南理工大学`           										广州
 
-计算机应用技术,  						2007.09–2010.07
+计算机图形与模式识别硕士,  						2007.09–2010.07
 
 硕士毕业论文: 基于大规模社交媒体挖掘的景点识别
 
+
 `南昌大学`           										南昌
 
-嵌入式软件开发,  						2003.09–2007.07
+嵌入式软件开发学士,  						2003.09–2007.07
+
+
+## 发表论文 ##
+
+----------
+Z. Luo, R.C. Veltkamp, A. Egges.: `Volumetric Space Deformations Based on Voxels`. submitted to Journal of Visual Computer.
+
+Z. Luo, R.C. Veltkamp, A. Egges.: `Fast Multi-Domain Smooth Embedding for Character Deformation`. revision submitted to Journal of Computer Animation and Virtual Worlds.
+
+Z. Luo, R.C. Veltkamp, A. Egges.: `As-Rigid-As-Possible Character Deformation Using Point Handles`. 11th International Symposium on Visual Computing 2015 (ISVC'15), oral.
+
+Z. Luo, R.C. Veltkamp, A. Egges.: `Flexible Point Handles Metaphor for Character Deformation`. ACM Symposium on Virtual Reality Software and Technology (VRST) 2015, poster.
+
+Z. Luo, R.C. Veltkamp, A. Egges.: `Volumetric Surface Deformation with Auxiliary Voxel Grids`. The 32nd Annual Conference on Computer Graphics International (CGI) 2015, short paper.
+
+Z. Luo, R.C. Veltkamp, A. Egges.: `Space Deformation for Character Deformation using Multi-Domain Smooth Embedding`. The 28th Annual Conference on Computer Animation and Social Agents (CASA 2015), short paper.
+
+Z. Luo, N. Pronost, A. Egges.: `Physics-based Human Neck Simulation`. Virtual Reality Interactions and Physical Simulations 2013: 10p.
+
+Z. Luo, H. Li, J. Tang, R. Hong, TS. Chua.: `ViewFocus: explore places of interests on Google maps using photos with view direction filtering`. Proceedings of the 17th ACM international conference on Multimedia 2009: 963-964.
+
+Z. Luo, H. Li, J. Tang, R. Hong, TS. Chua.: `Estimating poses of world's photos with geographic metadata`. Advances in Multimedia Modeling 2010, 695-700.
+
+Z. Luo, X. Zhang.: `A Semi-Supervised Learning Based Relevance Feedback Algorithm in Content-Based Image Retrieval`. Pattern Recognition, 2008. CCPR '08. Chinese Conference on , vol., no., pp.1,4, 22-24 Oct. 2008.
+
+J. Lu, VA. Nguyen, Z. Niu, B. Singh, Z. Luo, MN. Do.: `CuteChat: a lightweight tele-immersive video chat system`. ACM Multimedia 2011: 1309-1312.
+
+TS. Chua, J. Tang, R. Hong, H. Li, Z. Luo, Y. Zheng.: `NUS-WIDE: a real-world web image database from National University of Singapore`. Proceedings of the ACM International Conference on Image and Video Retrieval 2009, 48.
+
+R. Hong, J. Tang, ZJ. Zha, Z. Luo, TS. Chua.: `Mediapedia: Mining web knowledge to construct multimedia encyclopedia`. Advances in Multimedia Modeling 2010, 556-566.
+
+Y Wu, M Wang, G Li, Z Luo, TS Chua, X Liu.: `VDictionary: automatically generate visual dictionary via wikimedias`. Advances in Multimedia Modeling, 796-798.
+
+RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Computational Intelligence and Security. 2009. CIS '09. International Conference on , vol.1, no., pp.363,367, 11-14 Dec. 2009.
+
+## 学术报告 ##
+
+----------
+`As-Rigid-As-Possible Character Deformation Using Point Handles`, 11th International Symposium on Visual Computing 2015 (ISVC'15), Las Vegas, Nevada, USA, December 14, 2015. to do
+
+`Flexible Point Handles Metaphor for Character Deformation`, ACM Symposium on Virtual Reality Software and Technology (VRST) 2015, Beijing, China, November 13th, 2015.
+
+`Volumetric Surface Deformation with Auxiliary Voxel Grids`, Computer Graphics International 2015, Strasbourg, France, June 25, 2015.
+
+`Space Deformation for Character Deformation using Multi-Domain Smooth Embedding`, 28th Annual Conference on Computer Animation and Social Agents, Singapore, May 13, 2015.
+
+`Physics-based Human Neck Simulation`, 10th Workshop on Virtual Reality Interaction and Physical Simulation, INRIA Lille,  France, November 28, 2013.
+
+`Real-time Human Neck Animation Using Simulated Blendshapes`, GRIS Kolloquium, TU Darmstadt, Germany, 10-Oct-2013.
+
+`ViewFocus: explore places of interests on Google maps using photos with view direction filtering`, ACM Multimedia Conference 2009, Beijing, Oct, 2009.
 
 ## 项目经历 ##
 
