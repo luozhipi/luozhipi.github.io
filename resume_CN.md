@@ -144,8 +144,9 @@ Unix/Linux 环境下路由管理转换接口设计与实现           **国家�
 ## 教学经历 ##
 
 ----------
-2014-09~2014-11 基于C#语言的游戏编程 乌特勒支大学
-2015-04~2015-07 三维建模 乌特勒支大学
+2014-09~2014-11 基于C#语言的游戏编程 荷兰乌特勒支大学
+
+2015-04~2015-07 三维建模 荷兰乌特勒支大学
 
 [VoxelARAP code]: https://github.com/luozhipi/VoxelARAP
 [CuteChat]: https://sites.google.com/site/adscitem/recent-contributions-2
