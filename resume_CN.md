@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resources
+title: 中文简历
 permalink: /cv_cn/
 ---
 # 万虎| 个人简历 #
