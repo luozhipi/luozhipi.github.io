@@ -7,6 +7,8 @@ permalink: /cv_cn/
 
 男 1986 未婚 深圳市
 
+英语 • 普通话
+
 qq: 277542747 • Wechat: lzp138252 
 
 [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [https://github.com/luozhipi](https://github.com/luozhipi)
@@ -49,7 +51,7 @@ Z. Luo, R.C. Veltkamp, A. Egges.: `Volumetric Surface Deformation with Auxiliary
 
 Z. Luo, R.C. Veltkamp, A. Egges.: `Space Deformation for Character Deformation using Multi-Domain Smooth Embedding`. The 28th Annual Conference on Computer Animation and Social Agents (CASA 2015), short paper.
 
-Z. Luo, N. Pronost, A. Egges.: `Physics-based Human Neck Simulation`. Virtual Reality Interactions and Physical Simulations 2013: 10p.
+Z. Luo, N. Pronost, A. Egges.: `Physics-based Human Neck Simulation`. Virtual Reality Interactions and Physical Simulations 2013: 10p. [FEMNeck code]
 
 Z. Luo, H. Li, J. Tang, R. Hong, TS. Chua.: `ViewFocus: explore places of interests on Google maps using photos with view direction filtering`. Proceedings of the 17th ACM international conference on Multimedia 2009: 963-964.
 
@@ -84,7 +86,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 `ViewFocus: explore places of interests on Google maps using photos with view direction filtering`, ACM Multimedia Conference 2009, Beijing, Oct, 2009.
 
-## 项目经历 ##
+## 研究经历 ##
 
 ----------
 ###“国家大学生创新性实验计划” 项目###
@@ -132,13 +134,20 @@ Unix/Linux 环境下路由管理转换接口设计与实现           **国家�
 - 开发和维护首都师范大学本科生，硕士生、博士生学位论文\LaTeX 模板
 - 致力于校内数字排印与阅读的开发和推广
 
-## 荣誉奖励 ##
+## 计算机证书 ##
 
 ----------
-2011 北京市大学生计算机应用大赛移动终端应用创意与程序设计二等奖团队组长
+2006~ 软件设计师
 
-2011 第六届全国信息技术应用水平大赛比赛安卓应用开发团体赛三等奖团队组长
+2008～ 系统分析师
+
+## 教学经历 ##
+
+----------
+2014-09~2014-11 基于C#语言的游戏编程 乌特勒支大学
+2015-04~2015-07 三维建模 乌特勒支大学
 
 [VoxelARAP code]: https://github.com/luozhipi/VoxelARAP
 [CuteChat]: https://sites.google.com/site/adscitem/recent-contributions-2
 [NUS-WIDE]: http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm
+[FEMNeck code]: https://github.com/luozhipi/FEM-Neck
