@@ -11,7 +11,7 @@ permalink: /cv_cn/
 
 qq: 277542747 • Wechat: lzp138252 
 
-[luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [https://github.com/luozhipi](https://github.com/luozhipi)
+[luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](luozhipi.github.io) • [https://github.com/luozhipi](https://github.com/luozhipi)
 
 C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab
 
@@ -25,7 +25,7 @@ C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaS
 
 `乌特勒支大学 (Utrecht University)` (世界大学学术排名56)         										荷兰乌特勒支
 
-计算机图形 博士,  						2012.02–2016.01
+计算机图形 博士,  						2012.02–2016.01 (荷兰政府资助`非`国家公派CSC)
 
 博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models
 
@@ -98,7 +98,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 ###博士研究生, 乌特勒支大学, 荷兰###
 
-2012-02 至 2016-01 (荷兰政府资助`非`国家公派CSC)
+2012-02 至 2016-01
 
 计算机三维动画           **角色动画中的蒙皮技术**
 
