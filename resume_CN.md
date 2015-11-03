@@ -11,7 +11,7 @@ permalink: /cv_cn/
 
 qq: 277542747 • Wechat: lzp138252 
 
-[luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](luozhipi.github.io) • [https://github.com/luozhipi](https://github.com/luozhipi)
+[luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](http://luozhipi.github.io) • [github.com/luozhipi](https://github.com/luozhipi)
 
 C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
 
@@ -27,7 +27,7 @@ C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaS
 
 计算机图形 博士,  						2012.02–2016.01 (荷兰政府资助`非`国家公派CSC)
 
-博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models [预览]
+博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models [[预览]]
 
 
 `华南理工大学`           										广州
