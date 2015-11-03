@@ -27,7 +27,7 @@ C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaS
 
 计算机图形 博士,  						2012.02–2016.01 (荷兰政府资助`非`国家公派CSC)
 
-博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models
+博士毕业论文: Interactive Character Deformation Using Simplified Elastic Models [预览]
 
 
 `华南理工大学`           										广州
@@ -171,3 +171,4 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 [CuteChat]: https://sites.google.com/site/adscitem/recent-contributions-2
 [NUS-WIDE]: http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm
 [FEMNeck code]: https://github.com/luozhipi/FEM-Neck
+[预览]:  /papers/theis_v2_low.pdf
