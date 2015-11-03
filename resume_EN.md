@@ -27,7 +27,7 @@ Computer graphics：3D character animation • shape modeling
 
 PhD in Computer Graphics,  						2012.02–2016.01 (supported by the [COMMIT] project)
 
-Dissertation: Interactive Character Deformation Using Simplified Elastic Models [preprint]
+Dissertation: Interactive Character Deformation Using Simplified Elastic Models [[preprint]]
 
 
 `South China University of Technology`   Guangzhou, China
