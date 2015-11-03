@@ -102,8 +102,12 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 计算机三维动画           **角色动画中的蒙皮技术**
 
-- 人脸动画: 基于Microsoft Speech SDK的文本转换到语音，再由语音驱动人脸动画. 基本思想为音标对应了某个人脸表情，因而依据发音找到对应的表情(一个变形). 音标之间的权重融合依据现有标准. 系统前端用Python实现，引擎基于开源游戏引擎Ogre和C++实现.
-- 虚拟人体模拟: 物理方法模拟人体的骨骼肌肉系统和皮肤变形来达到高保真地模拟虚拟人变形动画. 项目涉及知识面广, 包括使用maya处理几何曲面polygonal mesh, 从几何曲面自动生成体积曲面volumetric mesh, 基友有限元的肌肉建模和模拟,基于多刚体系统动力学multi-body dynamics的骨骼运动模拟, 基于弹簧模型(springs)的骨骼肌肉耦合机制, 以及基于质点-弹簧(mass-spring)模型的皮肤建模. 整个系统动力学的模拟用隐式时间积分法(implicit time integration)求解从牛顿第二定律推导出的常微分方程(ODE).
+- `人脸动画`: 基于Microsoft Speech SDK的文本转换到语音，再由语音驱动人脸动画. 基本思想为音标对应了某个人脸表情，因而依据发音找到对应的表情(一个变形). 音标之间的权重融合依据现有标准. 系统前端用Python实现，引擎基于开源游戏引擎Ogre和C++实现.
+- `虚拟人体模拟`: 物理方法模拟人体的骨骼肌肉系统和皮肤变形来达到高保真地模拟虚拟人变形动画. 项目涉及知识面广, 包括使用maya处理几何曲面polygonal mesh, 从几何曲面自动生成体积曲面volumetric mesh, 基友有限元的肌肉建模和模拟,基于多刚体系统动力学multi-body dynamics的骨骼运动模拟, 基于弹簧模型(springs)的骨骼肌肉耦合机制, 以及基于质点-弹簧(mass-spring)模型的皮肤建模. 整个系统动力学的模拟用隐式时间积分法(implicit time integration)求解从牛顿第二定律推导出的常微分方程(ODE).
+- `基于弹性能量最小化变形`: 首先构建几何曲面的保刚性弹性能量(as-rigid-as-possible elastic energy),然后最小化其目标方程使得曲面的每个单元的变化为刚性变换(rigid transformation). 帧与帧之间单元的旋转矩阵由奇异值分解法SVD求解. 因此，曲面变形将最大可能不失真,尤其有助于高质量渲染有纹理渲染的曲面. 通过体素化(voxelization)和并修改目标方程所要求的权重方程, 曲面弹性能量扩展到体积曲面.
+- `空间变形(space deformation)`: 非线性的弹性能力最小化以及基于有限元的软体动画(soft body animation)一般而言其计算复杂度很高, 运行速度慢, 无法满足实时要求. 空间变形技术是一个有效的加速策略: 最小化或模拟在一个分辨率更低(coarser)的曲面上进行,而后曲面变形是一个分辨率低曲面点位移的插值函数. 实现了基于基于径向基函数(radial basis functions)的平滑插值以及常用的三线性插值(trilinear interpolation)和顶点混合(vertex blending). 为适应角色变形动画(character deformation),提出域分割法(domain decomposition),每个月一个RBF插值系统,域与域之间通过Laplacian 平滑来消除缝合缺陷(seam artifacts).
+- `机器学习子空间变形模型(learning linear blend skinning model)`: 当前3D扫描设备或运动捕捉设备在电影以及动画中得到广泛应用, 用来捕捉变形动画, 生成融合变形(blendshape)数据库. 但当前主流引擎仍支持基于骨骼的动画模型, 或因blendshapes需很大存储空间, 或不方便艺术家来操作角色(character rigging), 因而需把blendshapes转换成角色蒙皮最常用的模型Linear blend skinning (skeletal subspace deformation). 以blendshapes为学习样本,构建一个LBS模型与样本之间顶点位置最小化的最小二乘法方程(least squares)来求解最优的LBS的骨骼动画以及蒙皮权重.
+- `软体动画`: 基于Bullet引擎的连续碰撞检测(continuous collision detection)实现软体动画soft body animation. 变形用重心插值(barycentric interpolation)实现.
 
 ###“北京市大学生科学研究与创业行动计划” 项目###
 
