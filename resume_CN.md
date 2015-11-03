@@ -13,7 +13,7 @@ qq: 277542747 • Wechat: lzp138252
 
 [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](luozhipi.github.io) • [https://github.com/luozhipi](https://github.com/luozhipi)
 
-C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab
+C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
 
 计算机视觉: 目标识别与跟踪 • 图像检索
 
