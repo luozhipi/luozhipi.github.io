@@ -98,7 +98,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 ###博士研究生, 乌特勒支大学, 荷兰###
 
-2012-02 至 2016-01
+2012-02 至 2016-01 (荷兰政府资助`非`国家公派CSC)
 
 计算机三维动画           **角色动画中的蒙皮技术**
 
@@ -127,7 +127,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - `沉浸式会议聊天系统`: 团队开发出实时算法可以从视频中实时分割出人物对象. 通过OpenMP达到实时要求, 系统运行可运行于带摄像头的普通笔记本.; 根据关键字多线程从互联网中下载图片替换背景,或可以把背景换成ppt, 视频.
 - `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景.
 
-###研究型实习生, 新加坡国立大学媒体检索实验室, 新加坡###
+###研究型实习生(research intern), 新加坡国立大学媒体检索实验室, 新加坡###
 
 2008-09 至 2009-12
 
@@ -137,7 +137,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - ` 图像标注`: C#语言实现一个图像标注系统, 标注结果保存到mysql.
 - `图像检索数据库构建`: 从flickr下载海量图片, 提取图像特征, 用支持向量机和k-NN方法训练图像对象识别分类器.
 
-###研究人员, 新加坡管理大学, 新加坡###
+###研究人员(research fellow), 新加坡管理大学, 新加坡###
  
 2009-12 至 2010-03
 
