@@ -96,7 +96,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 ----------
 
-###博士研究生, 乌特勒支大学### 2012-02  至 2016-01
+###博士研究生, 乌特勒支大学, 荷兰###
 
 计算机三维动画           **角色动画中的蒙皮技术**
 
