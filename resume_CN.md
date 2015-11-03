@@ -102,20 +102,20 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 计算机三维动画           **角色动画中的蒙皮技术**
 
-- `人脸动画`: 基于Microsoft Speech SDK的文本转换到语音，再由语音驱动人脸动画. 基本思想为音标对应了某个人脸表情，因而依据发音找到对应的表情(一个变形). 音标之间的权重融合依据现有标准. 系统前端用Python实现，引擎基于开源游戏引擎Ogre和C++实现.
-- `虚拟人体模拟`: 物理方法模拟人体的骨骼肌肉系统和皮肤变形来达到高保真地模拟虚拟人变形动画. 项目涉及知识面广, 包括使用maya处理几何曲面polygonal mesh, 从几何曲面自动生成体积曲面volumetric mesh, 基于有限元的肌肉建模和模拟,基于多刚体系统动力学multi-body dynamics的骨骼运动模拟, 基于弹簧模型(springs)的骨骼肌肉耦合机制, 以及基于质点-弹簧(mass-spring)模型的皮肤建模. 整个系统动力学的模拟用隐式时间积分法(implicit time integration)求解从牛顿第二定律推导出的常微分方程(ODE).
-- `基于弹性能量最小化变形`: 首先构建几何曲面的保刚性弹性能量(as-rigid-as-possible elastic energy),然后最小化其目标方程使得曲面的每个单元的变化为刚性变换(rigid transformation). 帧与帧之间单元的旋转矩阵由奇异值分解法SVD求解. 因此，曲面变形将最大可能不失真,有助于高质量渲染有纹理渲染的曲面. 通过体素化(voxelization)和并修改目标方程所要求的权重方程, 曲面弹性能量扩展到体积曲面.
-- `空间变形(space deformation)`: 非线性的弹性能力最小化以及基于有限元的软体动画(soft body animation)一般而言其计算复杂度很高, 运行速度慢, 无法满足实时要求. 空间变形技术是一个有效的加速策略: 最小化或模拟在一个分辨率更低(coarser)的曲面上进行,而后曲面变形是一个分辨率低曲面点位移的插值函数. 实现了基于基于径向基函数(radial basis functions)的平滑插值以及常用的三线性插值(trilinear interpolation)和顶点混合(vertex blending). 为适应角色变形动画(character deformation),提出域分割法(domain decomposition),每个月一个RBF插值系统,域与域之间通过Laplacian 平滑来消除缝合缺陷(seam artifacts).
-- `机器学习子空间变形模型(learning linear blend skinning model)`: 当前3D扫描设备或运动捕捉设备在电影以及动画中得到广泛应用, 用来捕捉变形动画, 生成融合变形(blendshape)数据库. 但当前主流引擎仍支持基于骨骼的动画模型, 或因blendshapes需很大存储空间, 或不方便艺术家来操作角色(character rigging)因操作骨骼更直观, 因而需把blendshapes转换成角色蒙皮最常用的模型Linear blend skinning (skeletal subspace deformation). 以blendshapes为学习样本,构建一个LBS模型与样本之间顶点位置最小化的最小二乘法方程(least squares)来求解最优的LBS的骨骼动画以及蒙皮权重.
-- `软体动画`: 基于Bullet引擎的连续碰撞检测(continuous collision detection)实现软体动画soft body animation. 变形用重心插值(barycentric interpolation)实现.
+- `人脸动画`:  使用Microsoft Speech SDK转换文本到语音，再由语音驱动人脸动画. 选出具有显著特征的音标, 每个音标对应一个脸部表情(一个变形). 音标之间的权重融合依据MPEG-4标准. 系统前端用Python实现，引擎用开源游戏引擎Ogre和C++实现.
+- `虚拟人体模拟`: 通过物理方法模拟人体的骨骼肌肉系统和皮肤变形来达到高保真的虚拟人变形动画. 方法包括使用maya处理几何曲面 (polygonal mesh) 如缺口 (hole), 从几何曲面自动生成体积曲面 (volumetric mesh), 基于有限元的肌肉建模和模拟, 基于多刚体系统动力学 (multi-body dynamics) 的骨骼运动模拟, 基于弹簧模型 (springs) 的骨骼-肌肉耦合机制, 以及基于质点-弹簧 (mass-spring) 模型的皮肤建模. 整个系统动力学的模拟用隐式时间积分法 (implicit time integration) 求解从牛顿第二定律推导出的常微分方程 (ODE).
+- `基于弹性能量最小化变形`: 首先构建几何曲面的保刚性弹性能量 (as-rigid-as-possible elastic energy), 帧与帧之间单元的旋转矩阵由奇异值分解法SVD求解, 然后最小化其目标方程使得曲面的每个单元的变换为刚性变换 (rigid transformation). 因此，变形中曲面局部细节将最大可能不失真. 方法有助于高质量渲染有纹理渲染的曲面, 以及生成高质量的弹性变形动画. 通过体素化(voxelization)和修改目标方程所要求的权重方程, 将曲面弹性能量扩展到体积曲面以进一步最小化曲面物体的体积变化 (volume preservation).
+- `空间变形 (space deformation)`: 非线性的弹性能量最小化以及基于有限元的软体动画 (soft body animation) 或可变形体 (deformable body) 的模拟一般而言其计算复杂度很高, 运行速度慢, 无法满足实时要求. 空间变形技术是一个有效的加速策略: 最小化求解或模拟在一个分辨率更低 (coarser) 的曲面上进行, 而后曲面变形定义为一个插值函数, 其输入为分辨率低曲面上的点位移. 实现了基于径向基函数 (radial basis functions) 的平滑插值以及常用的三线性插值 (trilinear interpolation) 和顶点混合技术 (vertex blending). 为满足角色变形动画 (character deformation) 的要求, 提出域分割法 (domain decomposition), 每个域构建一个RBF插值系统, 域与域之间的缝合缺陷 (seam artifacts) 通过Laplacian平滑来消除.
+- `机器学习子空间变形模型 (learning linear blend skinning model)`: 当前3D扫描设备或运动捕捉设备在电影以及动画中得到了广泛的应用. 它们用来捕捉变形动画, 并生成融合变形 (blendshape) 数据库. 但因当前主流引擎仍只支持基于骨骼的动画模型, 或因blendshapes需很大存储空间, 或不方便艺术家来操作角色 (character rigging) 因操作骨骼更直观, 因而需把blendshapes转换成角色蒙皮最常用的模型Linear blend skinning (skeletal subspace deformation). 以blendshapes为学习样本,构建一个LBS模型与样本之间顶点位置最小化的最小二乘法方程 (least squares), 来求解最优的LBS骨骼动画以及蒙皮权重.
+- `软体动画`: 基于Bullet引擎的连续碰撞检测 (continuous collision detection) 方法实现软体动画soft body animation. 其中变形用重心插值 (barycentric interpolation) 法实现.
 
-###助理研究员(Research associate), GameLab南洋理工大学, 新加坡###
+###助理研究员 (Research associate), 南洋理工大学 GameLab, 新加坡###
 
 2011-09 至 2012-01
 
 计算机视觉 					  **运动捕捉**
 
-- `基于标志物(marker-based)的人体运动捕捉`: 基于OpenCV的模板匹配来跟踪腿部运动轨迹，并实验了不同的匹配方程. 捕捉的运动轨迹用OpenGL和vtk来可视化, 从而分析标志物在三维空间的位置以及他们之间的空间关系. 此类信息提供给新加坡运动员训练中心用以帮助提高运动效果.
+- `基于标志物 (marker-based) 的人体运动捕捉`: 基于OpenCV的模板匹配跟踪腿部运动轨迹，并实验了不同的匹配方程. 捕捉的运动轨迹用OpenGL和vtk来可视化, 方便分析标志物在三维空间的位置以及他们之间的空间关系. 此类信息提供给新加坡运动员训练中心用以帮助提高运动效果.
 
 ###软件工程师, 伊利诺大学香槟分校高级数字科学中心, 新加坡###
 
@@ -123,27 +123,27 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 计算机视觉 					  **目标跟踪与分割**
 
-- `摄像机标定`: 标定深度相机swissranger 4000 与普通彩色相机的内外部参数.基于OpenC**目标跟踪与分割**V相机标定模块实现.首先使用cvCalibrateCamera2(…)分别标定各个相机的内部参数 (拍摄的棋盘chessboard图像缩放到同一大小). 因深度相机直接提供了点云,因此二维图像的特点(corner detection)与点云之间的变换矩阵也就容易通过cvFindExtrinsicCameraParams2(…)计算得到.
-- `沉浸式会议聊天系统`: 团队开发出实时算法可以从视频中实时分割出人物对象. 通过OpenMP达到实时要求, 系统运行可运行于带摄像头的普通笔记本.; 根据关键字多线程从互联网中下载图片替换背景,或可以把背景换成ppt, 视频.
-- `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景.
+- `摄像机标定`: 基于OpenCV相机标定模块标定深度相机swissranger 4000 与普通彩色相机的内外部参数. 首先使用cvCalibrateCamera2(…)分别标定各个相机的内部参数 (拍摄的棋盘chessboard图像缩放到同一大小). 因深度相机直接提供了点云, 因此二维图像的特征点 (by corner detection) 与点云之间的变换矩阵也就容易通过cvFindExtrinsicCameraParams2(…)计算得到.
+- `沉浸式会议聊天系统`: 作为团队成员, 共同开发出实时算法可以从视频中实时分割出人物对象. 独立负责: 通过OpenMP实时化系统, 使得系统可运行于带摄像头的普通笔记本; 根据关键字从互联网中多线程下载图片, 用以替换背景, 背景也可换成ppt, 视频等多媒体内容.
+- `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景的人机交互.
 
-###研究型实习生(research intern), 新加坡国立大学媒体检索实验室, 新加坡###
+###研究型实习生 (research intern), 新加坡国立大学媒体检索实验室, 新加坡###
 
 2008-09 至 2009-12
 
 **互联网图像检索**
 
-- `视角过滤景点浏览`: 首先根据关键字和地理标签(geo-tag)从网络检索出景点图片,而后提取出图像的SIFT特征, 通过bundle adjustment匹配SIFT点云(使用了华盛顿大学的Bundler)估计相机姿态, 设定地图的三维坐标系统,简单估计相机的拍摄角度. 用户选择景点的一个兴趣点, 系统将返回拍摄角度指向该点的图片.
-- ` 图像标注`: C#语言实现一个图像标注系统, 标注结果保存到mysql.
+- `视角过滤景点浏览`: 首先根据关键字和地理标签 (geo-tag) 从网络中检索出给定景点图片, 而后提取出图像的SIFT特征, 通过bundle adjustment匹配SIFT点云 (使用了华盛顿大学的Bundler) 估计相机姿态. 设定地图的三维坐标系统, 简单估计相机的拍摄角度. 用户选择景点的一个兴趣点, 系统将返回拍摄角度指向该点的图片.
+- ` 图像标注`: 基于C#语言实现一个图像标注系统, 标注结果保存到mysql.
 - `图像检索数据库构建`: 从flickr下载海量图片, 提取图像特征, 用支持向量机和k-NN方法训练图像对象识别分类器.
 
-###研究人员(research fellow), 新加坡管理大学, 新加坡###
+###研究人员 (research fellow), 新加坡管理大学, 新加坡###
  
 2009-12 至 2010-03
 
 **社交网络挖掘**
 
-- `产品垃圾评论自动检测模型`: 用JAVA和Mysql实现Amonzon产品垃圾评论检测模型. 主要基于向量空间模型(tf-idf)来判断评论的相似度(向量点积)作为一个启发式规则. 系统还提供用户标注功能, 从而得到学习样本, 为下一步开发机器学习模型奠定基础.
+- `产品垃圾评论自动检测模型`: 用JAVA和Mysql实现Amonzon产品垃圾评论检测模型. 主要基于向量空间模型 (tf-idf) 来判断评论的相似度(依据向量点积)作为一个启发式规则. 系统还提供用户标注功能, 从而得到学习样本, 为开发机器学习模型奠定基础.
 
 ###软件开发师, FairEX International Financial System, 新加坡###
  
@@ -151,7 +151,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 **外汇交易系统**
 
-- 开发基于adobe flex的外汇交易系统前端,以及基于JAVA和weborb的实时外汇行情数据流引擎. 引擎以web service形式接入整个系统, 从而适应了不同开发语言开发的现有版本.
+- 开发基于adobe flex的外汇交易系统前端, 以及基于JAVA和weborb的实时外汇行情数据流引擎. 引擎以web service形式接入整个系统, 从而适应了由不同开发语言开发的现有版本.
 
 ## 计算机证书 ##
 
