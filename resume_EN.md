@@ -17,7 +17,7 @@ C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaS
 
 Computer vision: object recognition and tracking • image search
 
-Computer graphics：3D character animation • shape modeling
+Computer graphics: 3D character animation • shape modeling
 
 ## Education ##
 
