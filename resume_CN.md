@@ -23,7 +23,7 @@ C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaS
 
 ----------
 
-`乌特勒支大学 (Utrecht University)` (世界排名前100)         										荷兰乌特勒支
+`乌特勒支大学 (Utrecht University)` (世界大学学术排名56)         										荷兰乌特勒支
 
 计算机图形 博士,  						2012.02–2016.01
 
@@ -106,32 +106,32 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - `虚拟人体模拟`: 物理方法模拟人体的骨骼肌肉系统和皮肤变形来达到高保真地模拟虚拟人变形动画. 项目涉及知识面广, 包括使用maya处理几何曲面polygonal mesh, 从几何曲面自动生成体积曲面volumetric mesh, 基友有限元的肌肉建模和模拟,基于多刚体系统动力学multi-body dynamics的骨骼运动模拟, 基于弹簧模型(springs)的骨骼肌肉耦合机制, 以及基于质点-弹簧(mass-spring)模型的皮肤建模. 整个系统动力学的模拟用隐式时间积分法(implicit time integration)求解从牛顿第二定律推导出的常微分方程(ODE).
 - `基于弹性能量最小化变形`: 首先构建几何曲面的保刚性弹性能量(as-rigid-as-possible elastic energy),然后最小化其目标方程使得曲面的每个单元的变化为刚性变换(rigid transformation). 帧与帧之间单元的旋转矩阵由奇异值分解法SVD求解. 因此，曲面变形将最大可能不失真,尤其有助于高质量渲染有纹理渲染的曲面. 通过体素化(voxelization)和并修改目标方程所要求的权重方程, 曲面弹性能量扩展到体积曲面.
 - `空间变形(space deformation)`: 非线性的弹性能力最小化以及基于有限元的软体动画(soft body animation)一般而言其计算复杂度很高, 运行速度慢, 无法满足实时要求. 空间变形技术是一个有效的加速策略: 最小化或模拟在一个分辨率更低(coarser)的曲面上进行,而后曲面变形是一个分辨率低曲面点位移的插值函数. 实现了基于基于径向基函数(radial basis functions)的平滑插值以及常用的三线性插值(trilinear interpolation)和顶点混合(vertex blending). 为适应角色变形动画(character deformation),提出域分割法(domain decomposition),每个月一个RBF插值系统,域与域之间通过Laplacian 平滑来消除缝合缺陷(seam artifacts).
-- `机器学习子空间变形模型(learning linear blend skinning model)`: 当前3D扫描设备或运动捕捉设备在电影以及动画中得到广泛应用, 用来捕捉变形动画, 生成融合变形(blendshape)数据库. 但当前主流引擎仍支持基于骨骼的动画模型, 或因blendshapes需很大存储空间, 或不方便艺术家来操作角色(character rigging), 因而需把blendshapes转换成角色蒙皮最常用的模型Linear blend skinning (skeletal subspace deformation). 以blendshapes为学习样本,构建一个LBS模型与样本之间顶点位置最小化的最小二乘法方程(least squares)来求解最优的LBS的骨骼动画以及蒙皮权重.
+- `机器学习子空间变形模型(learning linear blend skinning model)`: 当前3D扫描设备或运动捕捉设备在电影以及动画中得到广泛应用, 用来捕捉变形动画, 生成融合变形(blendshape)数据库. 但当前主流引擎仍支持基于骨骼的动画模型, 或因blendshapes需很大存储空间, 或不方便艺术家来操作角色(character rigging)因操作骨骼更直观, 因而需把blendshapes转换成角色蒙皮最常用的模型Linear blend skinning (skeletal subspace deformation). 以blendshapes为学习样本,构建一个LBS模型与样本之间顶点位置最小化的最小二乘法方程(least squares)来求解最优的LBS的骨骼动画以及蒙皮权重.
 - `软体动画`: 基于Bullet引擎的连续碰撞检测(continuous collision detection)实现软体动画soft body animation. 变形用重心插值(barycentric interpolation)实现.
 
-###“北京市大学生科学研究与创业行动计划” 项目###
+###助理研究员(Research associate), GameLab南洋理工大学, 新加坡###
 
-功耗和温度感知的多核操作系统研究 					  **市级**
+2011-09 至 2012-01
 
-项目成员										2011–2012
+计算机视觉 					  **运动捕捉**
 
-- 参与设计和实现一种Cache 感知的调度算法（CAS），负责算法在Linux 环境下的测试和仿真，处理实验数据
-- 项目获得**“北京市大学生科学研究与创业行动计划” 二等奖**
-- 研究论文《面向多核处理器系统的Cache 感知调度算法》发表在中文核心期刊《小型微型计算机系统》
+- `基于标志物(marker-based)的人体运动捕捉`: 基于OpenCV的模板匹配来跟踪腿部运动轨迹，并实验了不同的匹配方程. 捕捉的运动轨迹用OpenGL和vtk来可视化, 从而分析标志物在三维空间的位置以及他们之间的空间关系. 此类信息提供给新加坡运动员训练中心用以帮助提高运动效果.
 
-###首都师范大学“实验室开放基金” 项目###
-网络工程创新实验设计——基于Hadoop 的海量数据应用研究 	校级
+###软件工程师, 伊利诺大学香槟分校高级数字科学中心, 新加坡###
 
-项目负责人									2011–2012
+2010-10 至 2011-09
 
-- 领导项目小组对Hadoop 大规模数据排序算法TeraSort 进行分析，探索TeraSort 作为基准测试程序的实际应用
-- 项目被评为**首都师范大学“实验室开放基金” 优秀项目**（学院**唯一**一个被评为优秀的项目）
+计算机视觉 					  **目标跟踪与分割**
 
-###首都师范大学“本科生科学研究与创业行动” 项目###
+- `摄像机标定`: 标定深度相机swissranger 4000 与普通彩色相机的内外部参数.基于OpenC**目标跟踪与分割**V相机标定模块实现.首先使用cvCalibrateCamera2(…)分别标定各个相机的内部参数 (拍摄的棋盘chessboard图像缩放到同一大小). 因深度相机直接提供了点云,因此二维图像的特点(corner detection)与点云之间的变换矩阵也就容易通过cvFindExtrinsicCameraParams2(…)计算得到.
+- `沉浸式会议聊天系统`: 团队开发出实时算法可以从视频中实时分割出人物对象. 通过OpenMP达到实时要求, 系统运行可运行于带摄像头的普通笔记本.; 根据关键字多线程从互联网中下载图片替换背景,或可以把背景换成ppt, 视频.
+- `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景.
 
-基于Nios II 软核的FIR 滤波器的设计					校级
+###研究型实习生, 新加坡国立大学媒体检索实验室, 新加坡###
 
-项目负责人									2012–至今
+2008-09 至 2009-12
+
+**互联网图像检索**
 
 - 负责解决FIR 的IP 核的设计，利用Audio ADC/DAC 引脚来设计音频输入
 - 负责解决FIR 模块的例化，利用硬件描述语言实现整个音频滤波
