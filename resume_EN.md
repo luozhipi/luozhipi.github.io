@@ -100,7 +100,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 2012-02 ~ 2016-01
 
-3D character deformation           **skinning, deformable body**
+3D character deformation:           **Skinning, Deformable body**
 
 - `Facial animation`:  This project includes text-to-speech conversion based on the Microsoft Speech SDK, and speech-driven facial expression synthesis based on the MPEG-4 standard. A phonogram is mapped to a specific expression (a morph target), those of which are blended with weights that related to the tone. The front-end is implemented in Python, and the engine is based on Ogre and C++. The system can also import motion capture data (c3d format), and map them onto the face's feature points to drive the animation.
 - `Human neck modeling`: 通过物理方法模拟人体的骨骼肌肉系统和皮肤变形来达到高保真的虚拟人变形动画. 方法包括使用maya处理几何曲面 (polygonal mesh) 如缺口 (hole), 从几何曲面自动生成体积曲面 (volumetric mesh), 基于有限元的肌肉建模和模拟, 基于多刚体系统动力学 (multi-body dynamics) 的骨骼运动模拟, 基于弹簧模型 (springs) 的骨骼-肌肉耦合机制, 以及基于质点-弹簧 (mass-spring) 模型的皮肤建模. 整个系统动力学的模拟用隐式时间积分法 (implicit time integration) 求解从牛顿第二定律推导出的常微分方程 (ODE).
