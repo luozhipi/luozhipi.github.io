@@ -9,8 +9,6 @@ Male • 1986 • Single
 
 English • Chinese
 
-qq: 277542747 • Wechat: lzp138252 
-
 [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](http://luozhipi.github.io) • [github.com/luozhipi](https://github.com/luozhipi)
 
 C++ • C# • JAVA • Python • OpenCV • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
