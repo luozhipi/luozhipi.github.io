@@ -111,17 +111,17 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 2011-09 ~ 2012-01
 
-计算机视觉 					  **运动捕捉**
+Computer vision: 					  **motion tracking**
 
-- `基于标志物 (marker-based) 的人体运动捕捉`: 基于OpenCV的模板匹配跟踪腿部运动轨迹，并实验了不同的匹配方程. 捕捉的运动轨迹用OpenGL和vtk来可视化, 方便分析标志物在三维空间的位置以及他们之间的空间关系. 此类信息提供给新加坡运动员训练中心用以帮助提高运动效果.
+- `Marker-based low-body motion tracking`: Track the marker motion by OpenCV's template matching, with different matching functions. Visualize the recorded motion trajectory by OpenGL and vtk. 
 
 ###Software Engineer, Advanced Digital Sciences Center of University of Illinois Urbana-Champaign, Singapore###
 
 2010-10 ~ 2011-09
 
-计算机视觉 					  **目标跟踪与分割**
+Computer vision: 					  **Object segmentation and tracking**
 
-- `摄像机标定`: 基于OpenCV相机标定模块标定深度相机swissranger 4000 与普通彩色相机的内外部参数. 首先使用cvCalibrateCamera2(…)分别标定各个相机的内部参数 (拍摄的棋盘chessboard图像缩放到同一大小). 因深度相机直接提供了点云, 因此二维图像的特征点 (by corner detection) 与点云之间的变换矩阵也就容易通过cvFindExtrinsicCameraParams2(…)计算得到.
+- `Camera calibration`: Estimate the intrinsic and extrinsic parameters of a camera rig consisting of a swissranger 4000 and a RGB camera. First, following the same RGB camera calibration, where it takes the images of the chessbord from different views, the intrinsic parameters per camera are estimated (by cvCalibrateCamera2). Notice that the intensity image from the depth camera should be resized as the same resolution as the color image. Since the depth camera directly provides the point cloud that can be considered as the 3D points in a coodinared frame, the transformation between RGB and depth camera can be calculated by cvFindExtrinsicCameraParams2(...).
 - `沉浸式会议聊天系统`: 作为团队成员, 共同开发出实时算法可以从视频中实时分割出人物对象. 独立负责: 通过OpenMP实时化系统, 使得系统可运行于带摄像头的普通笔记本; 根据关键字从互联网中多线程下载图片, 用以替换背景, 背景也可换成ppt, 视频等多媒体内容.
 - `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景的人机交互.
 
