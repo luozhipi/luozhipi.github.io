@@ -132,8 +132,8 @@ Computer vision: 					  **Object segmentation and tracking**
 **Internet image search**
 
 - `View filtering landmark exploration`: Given the textual keyword, map it to the longitude-atitude from the information provided by wikitravel. Acoording to the keyword and geo-location, retrieve photos shot within that location in a given radius. Extract SIFT features of photos, then construct the bag-of-words (BoW) vectors. Perform meanshift clustering, selecting the photos whose BoW close to the cluster centers in order to filter out the photos witout obvious objects of interest. Use bundle adjustment (Bundler) to estimate the camera matrices from the SIFT point cloud. By defining a 3D reference coordinate frame of the Google Map, register the cameras' poses onto the map. Users select a region of interest of the landmark on map, the sytems will return the photos whose views pointing to that region. The front-end was implemented in Flex, and the processing in C++ which was then wrapped as a web service.
-- ` 图像标注`: 基于C#语言实现一个图像标注系统, 标注结果保存到mysql.
-- `图像检索数据库构建`: 从flickr下载海量图片, 提取图像特征, 用支持向量机和k-NN方法训练图像对象识别分类器.
+- ` Image annotation`: Implemented a program for web-scale image annotation in C# and MySql.
+- `Image search benchmark construction`: Implemented a flickr image crawler. Extract low-level features, and combined with textual feature (tf-idf) use SVM and k-NN to train high-level category classifiers, e.g. the semantics like sunset, tiger and so on.
 
 ###Research Fellow, Singapore Management University, Singapore###
  
