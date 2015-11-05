@@ -122,8 +122,8 @@ Computer vision: 					  **motion tracking**
 Computer vision: 					  **Object segmentation and tracking**
 
 - `Camera calibration`: Estimate the intrinsic and extrinsic parameters of a camera rig consisting of a swissranger 4000 and a RGB camera. First, following the same RGB camera calibration, where it takes the images of the chessbord from different views, the intrinsic parameters per camera are estimated (by cvCalibrateCamera2). Notice that the intensity image from the depth camera should be resized as the same resolution as the color image. Since the depth camera directly provides the point cloud that can be considered as the 3D points in a coodinared frame, the transformation between RGB and depth camera can be calculated by cvFindExtrinsicCameraParams2(...).
-- `沉浸式会议聊天系统`: 作为团队成员, 共同开发出实时算法可以从视频中实时分割出人物对象. 独立负责: 通过OpenMP实时化系统, 使得系统可运行于带摄像头的普通笔记本; 根据关键字从互联网中多线程下载图片, 用以替换背景, 背景也可换成ppt, 视频等多媒体内容.
-- `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景的人机交互.
+- `Lightweight immersive chat system`: As a foundation developer, our team developed a real-time, object cutout technique used in conferencing and chat. The multiple parties in chatting can be freely projected onto the screen and shared to all, providing a form of immersive experience like gaming, remote education. Took charge of the shared-memory parallelization based on OpenMP, and multi-threading internet photo crawler, replacing the background with rich content like photos, slides, and videos.
+- `Gesture recognition`: Use the depth and color cue provided by Kinect to recognize and track hand gestures, supporing new interactions with the chat system such as pointing the highlight of the background and sliding to replace the background photo. 
 
 ###Research Intern, Lab for Media Search, National University of Singapore, Singapore###
 
