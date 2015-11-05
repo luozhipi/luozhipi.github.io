@@ -139,17 +139,17 @@ Computer vision: 					  **Object segmentation and tracking**
  
 2009-12 ~ 2010-03
 
-**社交网络挖掘**
+**Social network mining**
 
-- `产品垃圾评论自动检测模型`: 用JAVA和Mysql实现Amonzon产品垃圾评论检测模型. 主要基于向量空间模型 (tf-idf) 来判断评论的相似度(依据向量点积)作为一个启发式规则. 系统还提供用户标注功能, 从而得到学习样本, 为开发机器学习模型奠定基础.
+- `Product review spam detection`: Developed a model for detecting product review spam in JAVA and MySql. The dataset is from Amonzon. One heuristic rule is to calculate dot product of the tf-idf vectors as a similarity metric, as spam reviews are often repeated. To develop the machine learning model, the program also supports user annotation in order to obtain samples.
 
 ###Software Developer, FairEX International Financial System, Singapore###
  
 2010-04 ~ 2010-10
 
-**外汇交易系统**
+**Forex trading system**
 
-- 开发基于adobe flex的外汇交易系统前端, 以及基于JAVA和weborb的实时外汇行情数据流引擎. 引擎以web service形式接入整个系统, 从而适应了由不同开发语言开发的现有版本.
+- As the sole developer, implemented the front-end of a foreign exchange trading in adobe flex. Based on weborb, implemented the data streaming engine in JAVA and released as web services such that can connect to all front-end in different laguages. As a novice guy, finished the development in only three months. In the latter three months, researched stock trading like how to visualize the charts, give valuable suggestions.
 
 ## Certifications ##
 
