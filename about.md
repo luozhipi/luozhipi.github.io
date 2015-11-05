@@ -20,6 +20,8 @@ I am a Ph.D candidate, doing graphics research in Utrecht University (Prof. Remc
 
 [piazza: online class] 
 
+[mitsuba rendering]
+
 
 [computer vision talks online]: http://www.computervisiontalks.com/
 [piazza: online class]: https://piazza.com/
@@ -27,4 +29,5 @@ I am a Ph.D candidate, doing graphics research in Utrecht University (Prof. Remc
 [OpenVDB:hierarchical volumetric data structure for visual effects]: http://www.openvdb.org/
 [my wordpress blog]: https://luozhipi.wordpress.com/
 [Computer Vision for Visual Effects]: http://cvfxbook.com/
+[mitsuba rendering]: http://www.mitsuba-renderer.org/
 
