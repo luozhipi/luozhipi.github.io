@@ -3,7 +3,7 @@ layout: page
 title: Resume
 permalink: /cv_en/
 ---
-# Zhiping Luo| Curriculum Vitae #
+# Zhiping Luo| Curriculum Vitae [[download]]#
 
 Male • 1986 • Single
 
@@ -172,6 +172,7 @@ China
 [NUS-WIDE]: http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm
 [FEMNeck code]: https://github.com/luozhipi/FEM-Neck
 [preprint]:  /papers/theis_v2_low.pdf
+[download]:  /papers/Zhiping-CV-EN.pdf
 [COMMIT]: http://www.commit-nl.nl/
 
 
