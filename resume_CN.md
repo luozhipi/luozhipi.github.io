@@ -3,7 +3,7 @@ layout: page
 title: 中文简历
 permalink: /cv_cn/
 ---
-# 罗志平| 个人简历 #
+# 罗志平| 个人简历 [[download]] #
 
 男 • 1986 • 未婚
 
@@ -172,3 +172,4 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 [NUS-WIDE]: http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm
 [FEMNeck code]: https://github.com/luozhipi/FEM-Neck
 [预览]:  /papers/theis_v2_low.pdf
+[download]: /papers/Zhiping-CV-CN.pdf
