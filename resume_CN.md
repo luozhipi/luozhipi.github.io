@@ -13,7 +13,7 @@ qq: 277542747 • Wechat: lzp138252
 
 [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](http://luozhipi.github.io) • [github.com/luozhipi](https://github.com/luozhipi)
 
-C++ • C# • JAVA • Python • OpenCV • Eigen • Boost • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
+C++ • C# • JAVA • Python • PySide • Wing IDE • OpenCV • Eigen • Boost • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
 
 计算机视觉: 目标识别与跟踪 • 图像检索
 
