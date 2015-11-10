@@ -136,7 +136,9 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - `视角过滤景点浏览`: 首先根据关键字和地理标签 (geo-tag) 从网络中检索出给定景点图片, 而后提取出图像的SIFT特征, 通过bundle adjustment匹配SIFT点云 (使用了华盛顿大学的Bundler) 估计相机姿态. 设定地图的三维坐标系统, 简单估计相机的拍摄角度. 用户选择景点的一个兴趣点, 系统将返回拍摄角度指向该点的图片.
 - ` 图像标注`: 基于C#语言实现一个图像标注系统, 标注结果保存到mysql.
 - `图像检索数据库构建`: 从flickr下载海量图片, 提取图像特征, 用支持向量机和k-NN方法训练图像对象识别分类器.
+
 ![Alt text](/work/viewfocus.png)
+
 ###研究人员 (research fellow), 新加坡管理大学, 新加坡###
  
 2009-12 至 2010-03
