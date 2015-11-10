@@ -11,7 +11,7 @@ English • Chinese
 
 [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](http://luozhipi.github.io) • [github.com/luozhipi](https://github.com/luozhipi)
 
-C++ • C# • JAVA • Python • OpenCV • Eigen • Boost • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
+C++ • C# • JAVA • Python • PySide • Wing IDE • OpenCV • Eigen • Boost • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
 
 Computer vision: object recognition and tracking • image search
 
