@@ -133,7 +133,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - `沉浸式会议聊天系统`: 作为团队成员, 共同开发出实时算法可以从视频中实时分割出人物对象. 独立负责: 通过OpenMP实时化系统, 使得系统可运行于带摄像头的普通笔记本; 根据关键字从互联网中多线程下载图片, 用以替换背景, 背景也可换成ppt, 视频等多媒体内容.
 - `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景的人机交互.
 
-![Alt text](/work/cutechat.png = 400x)
+![cute chat](/work/cutechat.png width= "400")
 
 ###研究型实习生 (research intern), 新加坡国立大学媒体检索实验室, 新加坡###
 
@@ -145,7 +145,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - ` 图像标注`: 基于C#语言实现一个图像标注系统, 标注结果保存到mysql.
 - `图像检索数据库构建`: 从flickr下载海量图片, 提取图像特征, 用支持向量机和k-NN方法训练图像对象识别分类器.
 
-![Alt text](/work/viewfocus.png = 400x)
+![view focus](/work/viewfocus.png = 400x)
 
 ###研究人员 (research fellow), 新加坡管理大学, 新加坡###
  
@@ -155,7 +155,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 - `产品垃圾评论自动检测模型`: 用JAVA和Mysql实现Amonzon产品垃圾评论检测模型. 主要基于向量空间模型 (tf-idf) 来判断评论的相似度(依据向量点积)作为一个启发式规则. 系统还提供用户标注功能, 从而得到学习样本, 为开发机器学习模型奠定基础.
 
-![Alt text](/work/smu.png = 400x)
+![review spam detection](/work/smu.png = 400x)
 
 ###软件开发师, FairEX International Financial System, 新加坡###
  
@@ -165,7 +165,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 - 开发基于adobe flex的外汇交易系统前端, 以及基于JAVA和weborb的实时外汇行情数据流引擎. 引擎以web service形式接入整个系统, 从而适应了由不同开发语言开发的现有版本.
 
-![Alt text](/work/fairex.jpg = 400x)
+![forex trading](/work/fairex.jpg = 400x)
 
 ## 计算机证书 ##
 
