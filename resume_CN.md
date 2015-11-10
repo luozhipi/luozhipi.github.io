@@ -155,7 +155,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 - `产品垃圾评论自动检测模型`: 用JAVA和Mysql实现Amonzon产品垃圾评论检测模型. 主要基于向量空间模型 (tf-idf) 来判断评论的相似度(依据向量点积)作为一个启发式规则. 系统还提供用户标注功能, 从而得到学习样本, 为开发机器学习模型奠定基础.
 
-![review spam detection](/work/smu.png)
+<img src="http://luozhipi.github.io/work/smu.png" alt="review spam detection" title="产品垃圾评论检测模型" width="400">
 
 ###软件开发师, FairEX International Financial System, 新加坡###
  
@@ -165,7 +165,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 - 开发基于adobe flex的外汇交易系统前端, 以及基于JAVA和weborb的实时外汇行情数据流引擎. 引擎以web service形式接入整个系统, 从而适应了由不同开发语言开发的现有版本.
 
-<img src="http://luozhipi.github.io/work/fairex.jpg" alt="forex trading" width="400">
+<img src="http://luozhipi.github.io/work/fairex.jpg" alt="forex trading" title="外汇交易系统" width="400">
 
 ## 计算机证书 ##
 
