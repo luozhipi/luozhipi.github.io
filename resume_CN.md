@@ -115,7 +115,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 <img src="http://luozhipi.github.io/work/domain01.png" alt="point handles" title="域分割和RBF空间变形技术" width="400">
 
-<img src="http://luozhipi.github.io/work/voxelARAP.png" alt="voxel arap" title="弹性能力最小化曲面变形" width="400">
+<img src="http://luozhipi.github.io/work/voxelARAP.png" alt="voxel arap" title="弹性能量最小化曲面变形" width="400">
 
 <div>
 <img src="http://luozhipi.github.io/work/mocap01.png" alt="point handles" title="动作捕捉驱动角色动画" width="200">
@@ -123,12 +123,15 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 </div>
 
 <div>
-<img src="http://luozhipi.github.io/work/sa01.png" alt="soft body" title="软体动画" width="100">
-<img src="http://luozhipi.github.io/work/sa02.png" alt="soft body" title="软体动画和三线性插值曲面变形" width="100">
-<img src="http://luozhipi.github.io/work/sa03.png" alt="soft body" title="软体动画和线性顶点混合曲面变形" width="100">
-<img src="http://luozhipi.github.io/work/sa04.png" alt="soft body" title="软体动画和非线性顶点混合曲面变形" width="100">
-<img src="http://luozhipi.github.io/work/sa05.png" alt="soft body" title="软体动画" width="100">
-<img src="http://luozhipi.github.io/work/sa06.png" alt="soft body" title="软体动画和隐曲面变形" width="100">
+<img src="http://luozhipi.github.io/work/sa01.png" alt="soft body" title="软体动画" width="200">
+<img src="http://luozhipi.github.io/work/sa02.png" alt="soft body" title="软体动画和三线性插值曲面变形" width="200">
+<img src="http://luozhipi.github.io/work/sa03.png" alt="soft body" title="软体动画和线性顶点混合曲面变形" width="200">
+</div>
+
+<div>
+<img src="http://luozhipi.github.io/work/sa04.png" alt="soft body" title="软体动画和非线性顶点混合曲面变形" width="200">
+<img src="http://luozhipi.github.io/work/sa05.png" alt="soft body" title="软体动画" width="200">
+<img src="http://luozhipi.github.io/work/sa06.png" alt="soft body" title="软体动画和隐曲面变形" width="200">
 </div>
 
 ###助理研究员 (Research associate), 南洋理工大学 GameLab, 新加坡###
