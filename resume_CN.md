@@ -109,11 +109,21 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - `机器学习子空间变形模型 (learning linear blend skinning model)`: 当前3D扫描设备或运动捕捉设备在电影以及动画中得到了广泛的应用. 它们用来捕捉变形动画, 并生成融合变形 (blendshape) 数据库. 但因当前主流引擎仍只支持基于骨骼的动画模型, 或因blendshapes需很大存储空间, 或不方便艺术家来操作角色 (character rigging) 因操作骨骼更直观, 因而需把blendshapes转换成角色蒙皮最常用的模型Linear blend skinning (skeletal subspace deformation). 以blendshapes为学习样本,构建一个LBS模型与样本之间顶点位置最小化的最小二乘法方程 (least squares), 来求解最优的LBS骨骼动画以及蒙皮权重.
 - `软体动画`: 基于Bullet引擎的连续碰撞检测 (continuous collision detection) 方法实现软体动画soft body animation. 其中变形用重心插值 (barycentric interpolation) 法实现.
 
-![Human Neck](/work/neck.png)![Point Handles](/work/point01.png)
-![Space deformation](/work/domain01.png) ![Motion capture](/work/mocap01.png)
-![Motion capture](/work/mocap02.png)![Soft body](/work/sa01.png)
-![Soft body](/work/sa02.png)![Soft body](/work/sa03.png)![Soft body](/work/sa04.png)
-![Soft body](/work/sa05.png)![Soft body](/work/sa06.png)
+<img src="http://luozhipi.github.io/work/neck.png" alt="human neck" title="虚拟人体模拟" width="400">
+<img src="http://luozhipi.github.io/work/point01.png" alt="point handles" title="基于3D点的蒙皮技术" width="400">
+<img src="http://luozhipi.github.io/work/domain01.png" alt="point handles" title="域分割和RBF空间变形技术" width="400">
+<div>
+<img src="http://luozhipi.github.io/work/mocap01.png" alt="point handles" title="域分割和RBF空间变形技术" width="200">
+<img src="http://luozhipi.github.io/work/mocap02.png" alt="point handles" title="域分割和RBF空间变形技术" width="200">
+</div>
+<div>
+<img src="http://luozhipi.github.io/work/sa01.png" alt="soft body" title="软体动画" width="100">
+<img src="http://luozhipi.github.io/work/sa02.png" alt="soft body" title="软体动画和三线性插值曲面变形" width="100">
+<img src="http://luozhipi.github.io/work/sa03.png" alt="soft body" title="软体动画和线性顶点混合曲面变形" width="100">
+<img src="http://luozhipi.github.io/work/sa04.png" alt="soft body" title="软体动画和非线性顶点混合曲面变形" width="100">
+<img src="http://luozhipi.github.io/work/sa05.png" alt="soft body" title="软体动画" width="100">
+<img src="http://luozhipi.github.io/work/sa026.png" alt="soft body" title="软体动画和隐曲面变形" width="100">
+</div>
 
 ###助理研究员 (Research associate), 南洋理工大学 GameLab, 新加坡###
 
@@ -133,7 +143,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - `沉浸式会议聊天系统`: 作为团队成员, 共同开发出实时算法可以从视频中实时分割出人物对象. 独立负责: 通过OpenMP实时化系统, 使得系统可运行于带摄像头的普通笔记本; 根据关键字从互联网中多线程下载图片, 用以替换背景, 背景也可换成ppt, 视频等多媒体内容.
 - `手势识别`: 基于kinect提供的深度信息，识别手势. 与聊天系统结合, 达到通过手势替换背景的人机交互.
 
-![cute chat](/work/cutechat.png)
+<img src="http://luozhipi.github.io/work/cutechat.png" alt="cutchat" title="沉浸式聊天系统" width="400">
 
 ###研究型实习生 (research intern), 新加坡国立大学媒体检索实验室, 新加坡###
 
@@ -145,7 +155,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 - ` 图像标注`: 基于C#语言实现一个图像标注系统, 标注结果保存到mysql.
 - `图像检索数据库构建`: 从flickr下载海量图片, 提取图像特征, 用支持向量机和k-NN方法训练图像对象识别分类器.
 
-![view focus](/work/viewfocus.png)
+<img src="http://luozhipi.github.io/work/viewfocus.png" alt="viewfocus" title="基于视角景点浏览" width="400">
 
 ###研究人员 (research fellow), 新加坡管理大学, 新加坡###
  
