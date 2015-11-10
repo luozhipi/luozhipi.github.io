@@ -165,7 +165,7 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 
 - 开发基于adobe flex的外汇交易系统前端, 以及基于JAVA和weborb的实时外汇行情数据流引擎. 引擎以web service形式接入整个系统, 从而适应了由不同开发语言开发的现有版本.
 
-![forex trading](/work/fairex.jpg)
+<img src="http://luozhipi.github.io/work/fairex.jpg" alt="forex trading" width="400">
 
 ## 计算机证书 ##
 
