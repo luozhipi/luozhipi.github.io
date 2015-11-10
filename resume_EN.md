@@ -116,8 +116,8 @@ RH. Li; Z. Luo; G. Han.: `Pseudo-inverse Locality Preserving Projections`. Compu
 <img src="http://luozhipi.github.io/work/voxelARAP.png" alt="voxel arap" title="nonlinear, volumetric, ridigity energy minimization" width="400">
 
 <div>
-<img src="http://luozhipi.github.io/work/mocap01.png" alt="point handles" title="motion capture" width="200">
-<img src="http://luozhipi.github.io/work/mocap02.png" alt="point handles" title="motion capture" width="200">
+<img src="http://luozhipi.github.io/work/mocap01.png" alt="point handles" title="motion capture and LBS" width="200">
+<img src="http://luozhipi.github.io/work/mocap02.png" alt="point handles" title="motion capture and DQS" width="200">
 </div>
 
 <div>
@@ -150,7 +150,7 @@ Computer vision: 					  **Object segmentation and tracking**
 - `Lightweight immersive chat system`: As a foundation developer, our team developed a real-time, object cutout technique used in conferencing and chat. The multiple parties in chatting can be freely projected onto the screen and shared to all, providing a novel form of immersive experience like collaborative-gaming, remote education. Took charge of the shared-memory parallelization based on OpenMP, and multi-threading internet photo crawler, replacing the background with rich content like photos, slides, and videos.
 - `Gesture recognition`: Use the depth and color cue provided by Kinect to recognize and track hand gestures, supporting new interactions with the chat system such as pointing to highlight the region of interest and sliding to replace the background photo. 
 
-<img src="http://luozhipi.github.io/work/cutechat.png" alt="cutchat" title="lighweight immersive chat system, object cutout and background replacement" width="400">
+<img src="http://luozhipi.github.io/work/cutechat.png" alt="cutchat" title="lightweight immersive chat system, object cutout and background replacement" width="400">
 
 ###Research Intern, Lab for Media Search, National University of Singapore, Singapore###
 
