@@ -7,6 +7,7 @@ permalink: /about/
 I am a Ph.D candidate, doing graphics research in Utrecht University (Prof. Remco C. Veltkamp). Previously, was research intern in National University of Singapore (Prof. Tat-Seng Chua), Singapore Management University (Prof. ee-peng lim), and worked as research associate in Nanyang Technological University, as software engineer at Advanced Digital Sciences Center of UIUC (Dr. Jiangbo LU and Prof. Minh N. Do). Additionally, had a short term of industry experience in devloping forex trading system at a Singapore-based company.
 
 ##Links##
+[Jeremy Selan's color for VFX]
 
 [my wordpress blog] 
 
@@ -31,3 +32,4 @@ I am a Ph.D candidate, doing graphics research in Utrecht University (Prof. Remc
 [Computer Vision for Visual Effects]: http://cvfxbook.com/
 [mitsuba rendering]: http://www.mitsuba-renderer.org/
 
+[Jeremy Selan's color for VFX]: https://github.com/jeremyselan
