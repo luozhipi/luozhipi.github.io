@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Maya plug-in of BiHarmonic Bounded Weights"
+date:   2015-11-11 4:25:18
+categories: animation
+---
+I am realeasing a Maya plugin of the Siggraph 2011 paper entitled `biharmoinc bounded weights for real-time deformation`.
+The auto-weight method computes influence weights for characters, meeting the properties: smoothness, locality, shape-aware.
+check it out [bbw-plugin].
+
+[bbw-plugin]:     https://github.com/luozhipi/BiHarmonicBoundedWeights-MAYA-Plugin
