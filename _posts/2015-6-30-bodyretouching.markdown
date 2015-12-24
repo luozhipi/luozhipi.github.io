@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "nice survey papers on deformation"
-date:   2015-06-30 12:13:56
+title:  "parameterize 3D shape and semantic reshaping"
+date:   2015-12-24 19:06:56
 categories: animation
 ---
 
