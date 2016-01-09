@@ -27,7 +27,7 @@ categories: animation
 There is another very interesting paper I have read. It is about how to insert joints between voxels, so then can (dis)assemble Lego like body.
 [Boxelization: Folding 3D Objects into Boxes]
 
-For R&D, then it is neccesary to know `Constructive Solid Geometry`, and surfcing by maching cube or [Dual Contouring]
+For R&D, then it is neccesary to know `Constructive Solid Geometry`, and surfcing by maching cube or [Dual Contouring]. Multi-body/rigid dynamics by physics engine `Bullet` or `ODE` for instance. Personally, `Z-order` may be a promising data structure for organizing voxels and to enable bitwise operators.
  
  
 [LEGO Digital Designer]:      http://ldd.lego.com/nl-nl/
