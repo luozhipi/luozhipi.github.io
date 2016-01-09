@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "learning voxels"
+date:   2016-01-09 17:58:14
+categories: animation
+---
+ voxel (may called brick, cube) is the next representation of the virtual worlds, in films, animation, and or games.
+ 
+ I have been keen on voxels since last year. This time there is a sudden chance, pushing me again think deeply about that, and recall something that I would like to collect here.
+ I believe you will love voxels if you see `Minecraft` and `The Lego Movie`.
+ 
+ `tools for edit and texture pack`:
+ 
+ [LEGO Digital Designer]; [qubicle]; [MagicaVoxel]; [Voxel Builder]
+  
+  `open source voxelisation`:
+  
+ [PolyVox]
+ 
+ `SVO and rendering`:
+ [Efficient Sparse Voxel Octrees]
+ 
+ [Voxel-Based Global Illumination]
+ 
+ [GigaVoxels: A Voxel-Based Rendering Pipeline For Efficient Exploration Of Large And Detailed Scenes]
+ 
+There is another very interesting paper I have read. It is about how to insert joints between voxels, so then can (dis)assemble Lego like body.
+[Boxelization: Folding 3D Objects into Boxes]
+
+For R&D, then it is neccesary to know `Constructive Solid Geometry`, and surfcing by maching cube or [Dual Contouring]
+ 
+ 
+[LEGO Digital Designer]:      http://ldd.lego.com/nl-nl/
+[qubicle]: http://www.minddesk.com/
+[MagicaVoxel]: MagicaVoxel
+[Voxel Builder]: http://voxelbuilder.com/
+[PolyVox]: http://www.volumesoffun.com/
+[Efficient Sparse Voxel Octrees]: https://mediatech.aalto.fi/~samuli/publications/laine2010i3d_paper.pdf
+[Voxel-Based Global Illumination]: https://wwwcg.in.tum.de/fileadmin/user_upload/Lehrstuehle/Lehrstuhl_XV/Teaching/SS13/BaMaSeminar/Mostajabodaveh_Slides.pdf
+[GigaVoxels: A Voxel-Based Rendering Pipeline For Efficient Exploration Of Large And Detailed Scenes]: http://maverick.inria.fr/Membres/Cyril.Crassin/thesis/CCrassinThesis_EN_Web.pdf
+[Boxelization: Folding 3D Objects into Boxes]: http://www.disneyresearch.com/wp-content/uploads/Project_Boxelization_Siggraph2014_paper.pdf
+[Dual Contouring]: http://www.frankpetterson.com/publications/dualcontour/dualcontour.pdf
