@@ -5,7 +5,7 @@ date:   2016-01-13 09:46:28
 categories: personal
 ---
 
-Finally, sucessfully defense my thesis. My PhD supervisor Remco hands over the diploma to me. I finishe my PhD within 4 years in Netherlands.
+Finally, sucessfully defense my thesis on January 11 at 12:45-13:45, 2016. My PhD supervisor Remco hands over the diploma to me. I finishe my PhD within 4 years in Netherlands.
 
 
 <img src="http://luozhipi.github.io/graduation/IMG_7399.JPG" alt="graduation" title="" align="left" vspace="2" hspace="5" width = "250"> 
