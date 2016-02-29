@@ -9,9 +9,9 @@ permalink: /cv_cn/
 
 英语 • 普通话
 
-qq: 277542747 • Wechat: lzp138252 
+手机: 13006690272 (深圳) • Wechat: lzp138252 
 
-[luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](http://luozhipi.github.io) • [github.com/luozhipi](https://github.com/luozhipi)
+个人网站: [luozhipi@gmail.com](mailto:luozhipi@gmail.com) • [luozhipi.github.io](http://luozhipi.github.io) • [github.com/luozhipi](https://github.com/luozhipi)
 
 C++ • C# • JAVA • Python • PySide • Wing IDE • OpenCV • Eigen • Boost • OpenGL • GLSL • Maya • JavaScript • CGAL • Matlab • Adobe after effects
 
@@ -32,7 +32,7 @@ C++ • C# • JAVA • Python • PySide • Wing IDE • OpenCV • Eigen • 
 
 `华南理工大学`           										广州
 
-计算机图像与模式识别 硕士,  						2007.09–2010.07
+计算机图像与模式识别 硕士,  						2007.09–2011.07
 
 硕士毕业论文: 基于大规模社交媒体挖掘的景点识别
 
