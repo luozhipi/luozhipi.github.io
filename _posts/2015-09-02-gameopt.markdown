@@ -5,7 +5,7 @@ date:   2015-09-02 12:50:00
 categories: animation
 ---
 
-We love playing games. A game provides a large amount components pleasing us, including visuals, audio, playable elements, interaction etc. So, as that many struff should be loaded on a commifity computers/devices, how to optimize the game engine such that we won't endure poor user experience on speed for instance becomes a critical problem in practice. In this post, I will describe some conslusions about the optimization in games based on my experience of using `unreal engine` sdk.
+We love playing games. A game provides a large amount of components pleasing us, including visuals, audio, playable elements, interaction etc. As that many struff should be loaded on a commodity computers/devices, how to optimize the game engine such that we won't endure poor user experience on speed for instance becomes a critical problem in practice. In this post, I will describe some conslusions about the optimization in games based on my experience of using `unreal engine` sdk.
 
 Before releasing a game, there should be a number of rounds of testing (by an automatic pipeline and enerineers), user-study (normally conducted by game players). One of the most important thing is to identify the bottleneck, commonly via `Profiling Games Performance`. The following factors should be considered for a `technically sucesseful` game:
 
@@ -31,7 +31,7 @@ This is can be done by exloiting parallel computing, such as CUDA, Intel® Threa
 
 A game engine uses shaders, we can optimize the shaders, thereby largely boosting the performace as well.
 
-Based on my experience, low-level coding is difficult. For example, the CUDA programming always consumes my a lot of energy, to debug, and well orginize the data io.
+Based on my experience, low-level coding is difficult. For example, the CUDA programming always consumes me a lot of energy, to debug, and well orginize the data-io.
 
 `algorithmic optimization`
 
@@ -45,15 +45,15 @@ As a `pseudo-researcher`, I prefer the optimization via elegant algorithms. This
 
 Another aspect is the more efficient data sturcture, for example, for dynamically managing the objects in scene; for scoring system; for retrieving character skeletal motion.
 
-A game engine often has its own `formats` for textures, motion, meshes, configuration files, communication commands. These formats actually also give a significant imact on the performance. For example, for character deformaiton, most engines only support skeletal skinning, but the blendshape and other deformers (cf. MAYA), BVH motion but directly the C3D (cf. Vicon).
+A game engine often has its own `formats` for textures, motion, meshes, configuration files, communication commands. These formats actually also give a significant imact on the performance. For example, for character deformaiton, most engines only support skeletal skinning rather than the blendshape and other deformers (cf. MAYA), and BVH motion rather than directly the C3D (cf. Vicon).
 
-Here, I would like to say more about the textures which are the major asset. For different platform, we should choose a suitable format, and futher a compression version. For detailed discussion, I refer readers to [texturepacker]. Actually, how to orgnize the large amount of assets now becomes a issue more critical for a large game engine.
+Here, I would like to say more about the textures which are the major asset. For different platforms, we should choose a suitable format, and futher a compression scheme. For detailed discussion, I refer readers to [texturepacker]. Actually, how to orgnize the large amount of assets now becomes a issue more critical for a large game engine.
 
-It's beging argued that, next generation of games would be VR-based games. For that, I think the key issues would how to reduce vertiginous sensation and the support good wearing.
+It's beging argued that, next generation of games would be VR-based games. For that, the bottleneck still is how to reduce vertiginous sensation and the support good wearing.
 
-To conclude, local optimization is not enough since in practice it is not really locally (without mutual effect). Finally, the senior engineer who ideally developed indie games will guide a global optimization (emphasizing the optimization of the part consuming at most). 
+To conclude, local optimization is not enough since in practice it is not really, locally XXX (without mutual effect). Finally, the senior engineer who ideally developed indie games will guide a global optimization (emphasizing the optimization of the part consuming at most). 
 
-how to make a sucess game? I only restrict the discussion to the visuals. There is a research branch on game design, playful design, which brings interdisciplinarity into games such as psychology. If the game supports more and more visual effetcs that usally appear in films, such as fire, fog, fluid, hair, cloth, fracturing, strong feedback from collision, I believe the game will attract the players a lot, count me in!
+how to make a sucess game? I only restrict the discussion to the visuals. There is a research branch on game design, playful design, which brings interdisciplinarity into games such as psychology. If the game supports more and more visual effetcs that usally appear in films, such as fire, fog, fluid, hair, cloth, fracturing, strong feedback from collision, I believe the game will attract the players a lot.
 
 [texturepacker]: https://www.codeandweb.com/texturepacker
 
