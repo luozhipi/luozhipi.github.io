@@ -13,7 +13,6 @@ Ph.D in Computer graphics from Utrecht University (Prof. Remco C. Veltkamp), was
 <p></p>
 <a href="/papers/theis_v2_low.pdf"><img src="http://luozhipi.github.io/papers/thesis_cover.png" hspace="20" alt="PhD thesis" title="doctoral dissertation" align="left" height="450"></a>
 
-##Links##
 [Jeremy Selan's color for VFX]
 
 [my wordpress blog] 
