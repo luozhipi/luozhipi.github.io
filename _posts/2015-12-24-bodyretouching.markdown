@@ -11,7 +11,7 @@ Thus, I then just felt this topic is quite promising and interesting to graphics
 
 Here, the paper [Parametric Reshaping of Human Bodies in Images] would be a good starting point to read.
 
-Match-and-Defom is techniqucally reasonable method. Reshape a 3D model with semantic attributes is a easier task than by low-level, local edits on a 2D image directly.
+Match-and-Defom is techniqucally reasonable method. Reshape a 3D model with semantic attributes is an easier task than by low-level, local edits on a 2D image directly.
 Matching by pose-driven approach can resort to skeletal rigging, and deform by the concept of `offset defomer`. Given the correspondences between the image and model contour,
 body-aware image warping is then completed.
 
