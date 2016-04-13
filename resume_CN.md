@@ -1,7 +1,7 @@
 ---
 layout: 
 title: 中文简历
-permalink: /cv_cn/
+permalink: 
 ---
 # 罗志平| 个人简历 [[下载]] #
 
