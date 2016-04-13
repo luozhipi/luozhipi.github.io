@@ -1,8 +1,4 @@
----
-layout: page
-title: Resume
-permalink: /cv_en/
----
+
 # Zhiping Luo| Curriculum Vitae [[download]]#
 
 Male • 1986 • Single
