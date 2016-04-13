@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 
 title: 中文简历
 permalink: /cv_cn/
 ---
