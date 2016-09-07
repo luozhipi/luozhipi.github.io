@@ -7,7 +7,7 @@ permalink: /about/
  <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_viewmy_160x33.png" width="160" height="33" border="0" alt="View Zhiping Luo's profile on LinkedIn"> </a>
 <p>
 <img src="http://luozhipi.github.io/photo02.jpg" alt="me" title="" align="left" hspace="20" width = "250">
-Ph.D in Computer graphics from Utrecht University (Prof. Remco C. Veltkamp), was research intern in National University of Singapore (Prof. Tat-Seng Chua), Singapore Management University (Prof. Ee-peng Lim), research associate at GameLab of Nanyang Technological University, software engineer at Advanced Digital Sciences Center of UIUC (Dr. Jiangbo LU and Prof. Minh N. Do), and software developer of forex trading system at a Singapore-based company.
+leading a graphic RnD [team]. Ph.D in Computer graphics from Utrecht University (Prof. Remco C. Veltkamp), was research intern in National University of Singapore (Prof. Tat-Seng Chua), Singapore Management University (Prof. Ee-peng Lim), research associate at GameLab of Nanyang Technological University, software engineer at Advanced Digital Sciences Center of UIUC (Dr. Jiangbo LU and Prof. Minh N. Do), and software developer of forex trading system at a Singapore-based company.
 </p>
 <p></p>
 <p></p>
@@ -38,3 +38,5 @@ Ph.D in Computer graphics from Utrecht University (Prof. Remco C. Veltkamp), was
 [mitsuba rendering]: http://www.mitsuba-renderer.org/
 
 [Jeremy Selan's color for VFX]: https://github.com/jeremyselan
+
+[team]: https://kapok-cg.github.io/
