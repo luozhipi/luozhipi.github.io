@@ -5,10 +5,10 @@ date:   2017-08-28 14:19:28
 categories: graphics
 ---
 
-Marching Cube is simple while results in right-angle trianels. 
-I just implemented a very efficient remeshing method to remove such artifacts. The codes depends on a external c++ header-only hash map library.
+Marching Cube is simple while results in right-angle triangles. 
+I just implemented a very efficient remeshing method to remove such artifacts. The code depends on an external C++ header-only hash map library,
 here is the link you can git-out [https://github.com/sparsehash]
-```
+```C++
 /********************************************************************************************************/
 	//initial topology
 	/********************************************************************************************************/
