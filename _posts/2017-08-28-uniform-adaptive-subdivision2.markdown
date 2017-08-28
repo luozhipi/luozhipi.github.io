@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "uniform and adaptive Loop-color-displacement subdivision ..."
+title:  "continue: uniform and adaptive Loop-color-displacement subdivision"
 date:   2017-08-28 15:25:28
 categories: graphics
 ---
