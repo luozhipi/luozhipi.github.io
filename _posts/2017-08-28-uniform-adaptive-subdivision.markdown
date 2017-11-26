@@ -4,6 +4,9 @@ title:  "uniform and adaptive Loop-color-displacement subdivision"
 date:   2017-08-28 15:21:28
 categories: graphics
 ---
+
+Share a simple program that could be used to recover surface details from a color image, very useful for 3d reconstrcution on structure light
+
 ```C++
 
 #pragma once
@@ -53,11 +56,7 @@ void adaptive_lzp_details(const D3DMeshTexture& st_headtexture,
 	/********************************************************/
 	//adaptive and uniform Loop subdivision //
 	/*******************************************************/
-#ifdef USE8MRGB
-	float s_weight = 0.17f;//mike 1.0//bellus 3d 0.1
-#else
 	float s_weight = 0.1f;
-#endif
 	double threshold = 10.;
 	double min_area = 0.01;
 	int max_subdiv = 3;
