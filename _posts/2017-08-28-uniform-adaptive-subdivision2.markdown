@@ -4,6 +4,8 @@ title:  "continue: uniform and adaptive Loop-color-displacement subdivision"
 date:   2017-08-28 15:25:28
 categories: graphics
 ---
+This program is an implementation of matrix representation of mesh tolopogy, hope useful to geometry community.
+
 ```C++
 //////////////////////////////////////////////////////////////////////////////
 //MatrixMesh structure
@@ -117,6 +119,12 @@ class MatrixMesh
 			}
 		}
     
+   ```
+
+
+this program computes color gradients, while is different to grey space version. It does in 3-channels, resulting in much visible edges, and following the subpixel read funtion, inspired by OpenCV's
+
+```C++
     //color_gradient_domain
     void get_color_gradients(const std::string &filename, const std::string &out_filename, cv::Mat & magnitude, cv::Mat & mag_x, cv::Mat & mag_y, int & tex_w, int & tex_h)
 {
@@ -235,4 +243,5 @@ double getSubPixel(const cv::Mat& dis_map, float& texcoord_x, float& texcoord_y,
 	float value = (float)intensity / 255.0f;
 	return value;
 }
-   ```
+
+ ```
