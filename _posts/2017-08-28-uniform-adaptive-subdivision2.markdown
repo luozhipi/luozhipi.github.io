@@ -21,9 +21,9 @@ class MatrixMesh
 		public:
 			int nbV; // number of vertices
 			int nbF; // number of faces
-			ITMMatrixMesh() {}
-			ITMMatrixMesh(const vector<Vector3f>& _verts, const vector<int>& _faces);
-			~ITMMatrixMesh();
+			MatrixMesh() {}
+			MatrixMesh(const vector<Vector3f>& _verts, const vector<int>& _faces);
+			~MatrixMesh();
 			void InitNeighboringData(); // initialize all neighboring information
 			void ComputeNormals(); // compute all normals
 			Vector3f V(int v) const
@@ -54,7 +54,7 @@ class MatrixMesh
 			}
 		};
     
-    ITMMatrixMesh::ITMMatrixMesh(const vector<Vector3f>& _verts, const vector<int>& _faces)
+              MatrixMesh::MatrixMesh(const vector<Vector3f>& _verts, const vector<int>& _faces)
 		{
 			vertices = _verts;
 			faces = _faces;
@@ -64,10 +64,10 @@ class MatrixMesh
 			ComputeNormals();
 		}
 
-		ITMMatrixMesh::~ITMMatrixMesh() {
+	      MatrixMesh::MatrixMesh() {
 		}
 
-		void ITMMatrixMesh::InitNeighboringData()
+		void MatrixMesh::InitNeighboringData()
 		{
 			vertex_to_faces.clear();
 			vertex_to_faces.resize(nbV);
@@ -96,7 +96,7 @@ class MatrixMesh
 			}
 		}
 
-		void ITMMatrixMesh::ComputeNormals()
+		void MatrixMesh::ComputeNormals()
 		{
 			FNormals.clear();
 			FNormals.resize(nbF);
