@@ -12,7 +12,6 @@ an implementation of computing normals and curvature of point cloud, without any
 //
 #pragma once
 #include <algorithm>
-#include "../Utils/ITMLibDefines.h"
 
 inline bool abs_compare(float a, float b)
 {
