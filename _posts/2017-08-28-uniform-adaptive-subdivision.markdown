@@ -5,7 +5,7 @@ date:   2017-08-28 15:21:28
 categories: graphics
 ---
 
-Share a simple program that could be used to recover surface details from a color image, very useful for 3d reconstrcution on structure light
+Share a simple program that could be used to recover surface details from a color image, very useful conque intrisinc limitations of 3d reconstrcution on structure light sensors
 
 ```C++
 
@@ -17,7 +17,7 @@ Share a simple program that could be used to recover surface details from a colo
 
 void genDismap();
 int attenuation(double w, int subdiv);
-void adaptive_lzp_details(const D3DMeshTexture& st_headtexture,
+void adaptive_lzp_details(
 	std::vector<double> & vertices_in, std::vector<double> & texCoords_in,
 	std::vector<double> & normals_in, std::vector<int> & face_in);
 
@@ -33,12 +33,12 @@ int attenuation(double w, int subdiv)
 	return level;
 }
 
-void adaptive_lzp_details(const D3DMeshTexture& st_headtexture, 
+void adaptive_lzp_details(
 	std::vector<double> & vertices_in, std::vector<double>& texCoords_in, 
 	std::vector<double> & normals_in, std::vector<int> & face_in)
 {   
 	cv::Mat smooth_gray_invert;
-	genDismap(st_headtexture, smooth_gray_invert);
+	genDismap(color_image, smooth_gray_invert); // for example, invert gray as final displacement map
 	int tex_w = smooth_gray_invert.cols;
 	int tex_h = smooth_gray_invert.rows;
 	std::vector<Vector3f> vertices;
@@ -334,7 +334,7 @@ void adaptive_lzp_details(const D3DMeshTexture& st_headtexture,
 	/********************************************************************************************************/
 	//incremental displacement
 	/********************************************************************************************************/
-	ITMLib::Objects::ITMMatrixMesh mm(vertices, face_in);
+	MatrixMesh mm(vertices, face_in);
 	vertices.clear();
 	face_in.clear();
 	int steps = 10;
