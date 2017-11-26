@@ -12,7 +12,7 @@ here is the link you can git-out [https://github.com/sparsehash]
 /********************************************************************************************************/
 	//initial topology
 	/********************************************************************************************************/
-	std::vector<double> vertex = mesh->vertex;
+	std::vector<double> vertex = mesh->vertex; // please use my matrix representation of mesh
 	std::vector<int> face = mesh->face;
 	int noTotalTriangles = mesh->noTotalTriangles;
 	int noTotalVertex = mesh->noTotalVertex;
@@ -25,7 +25,7 @@ here is the link you can git-out [https://github.com/sparsehash]
 		for (int j = 0; j < 3; j++)
 		{
 			int v1 = face[i * 3 + j % 3], v2 = face[i * 3 + (j + 1) % 3], v3 = face[i * 3 + (j + 2) % 3];
-			Vector2i eKey = EdgeKey(v1, v2);
+			Vector2i eKey = EdgeKey(v1, v2); // just a sorted 2d vector, do it as yours.
 			vertexTriangles[v1].push_back(i);
 			vertexTriangles[v2].push_back(i);
 			vertexTriangles[v3].push_back(i);
@@ -91,7 +91,7 @@ here is the link you can git-out [https://github.com/sparsehash]
 						vector<int> indices;
 						for (size_t k = 0; k < 3; k++)indices.push_back(face[tri[0] * 3 + k]);
 						vector<int>::iterator itt = std::find(indices.begin(), indices.end(), v3_0);
-						int pos_1 = std::distance(indices.begin(), itt);
+						int pos_1 = std::distance(indices.begin(), itt); // watch out, this is slow
 						itt = std::find(indices.begin(), indices.end(), neighbor_v);
 						int pos_2 = std::distance(indices.begin(), itt);
 						int pos_3 = 0;
@@ -175,7 +175,7 @@ here is the link you can git-out [https://github.com/sparsehash]
 					float w_1 = 0.0f;
 					vector<int> verts = edgeVertex[eKey];
 					Vector3f p3_0(vertex[verts[0] * 3], vertex[verts[0] * 3 + 1], vertex[verts[0] * 3 + 2]);
-					float area_0 = length(cross(p3_0 - p, p3_0 - neighbor_p));
+					float area_0 = length(cross(p3_0 - p, p3_0 - neighbor_p)); // you have to do your vector operations
 					if (area_0 == 0.f) w_0 = 0.f;
 					else
 					{
@@ -213,3 +213,5 @@ here is the link you can git-out [https://github.com/sparsehash]
 		}
 	}
   ```
+
+[https://github.com/sparsehash]: https://github.com/sparsehash
