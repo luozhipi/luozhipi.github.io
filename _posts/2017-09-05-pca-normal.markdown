@@ -4,6 +4,8 @@ title:  "extract statistics of point cloud"
 date:   2017-09-05 14:25:28
 categories: graphics
 ---
+an implementation of computing normals and curvature of point cloud, without any libs, feel free to use.
+
 ```C++
 //@
 // extract statistics of depth surface
