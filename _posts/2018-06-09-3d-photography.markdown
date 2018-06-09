@@ -16,4 +16,4 @@ to develop 3D camera and capturing algorithms. This is mainly because China bran
 photos, and genertes depth, color to reconstruct a shell-like 3D mesh/geometry. Based on the geometry, many 3D effects could be enhanced, like the virtual-real
 fusuin as a main AR feature.
 
-check out papers "Casual 3D Photography" at Siggraph 2017, and improved version as "Instant 3D Photography" at Siggraph 2018. BTW kohannes Kopf is a cool, talent research in this area.
+check out papers "Casual 3D Photography" at Siggraph 2017, and improved version as "Instant 3D Photography" at Siggraph 2018. BTW kohannes Kopf is a cool, talent researcher in this area.
